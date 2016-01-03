@@ -14,7 +14,7 @@ const ITEMS_PER_PAGE = 12;
 const store = {
   lastPage: 1,
   page: 1,
-  type: '',
+  type: 'weapons',
 };
 
 
@@ -23,6 +23,7 @@ class ItemPanel extends BaseComponent {
   constructor(props) {
     super(props);
     store.lastPage = Math.ceil(itemsData[props.type].length / ITEMS_PER_PAGE);
+    store.type = props.type;
     this.state = store;
     this.bind('handleEquipItem', 'onLeftButtonPress', 'onRightButtonPress');
   }
