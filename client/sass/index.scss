@@ -1,0 +1,550 @@
+// Modules
+@import 'modules/normalize';
+
+// Partials
+@import 'partials/fonts';
+
+// Mixins
+@mixin transform($value) {
+  -moz-transform: $value; // Firefox
+  -ms-transform: $value; // IE 9
+  -webkit-transform: $value; // Chrome, Safari, Opera
+  transform: $value;
+}
+
+// Base elements
+.info-panel-a {
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  height: 42%;
+  left: 56%;
+
+  margin-top: 20vh;
+
+}
+
+// Everything else
+html {
+  font-family: 'Paintball';
+  font-weight: bold;
+  color: white;
+  background-color: #7D7D7D;
+  text-shadow: 1px 1px 3px #000000;
+  overflow-x: hidden;
+}
+
+.react {
+  width: 100vw;
+  height: 100vh;
+
+  .wave {
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    bottom: 0;
+    background-image: url(/img/wave.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+  }
+}
+
+.hidden-img {
+  display: block;
+  height: 100%;
+  visibility: hidden;
+}
+
+.browse-menu {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &.weapons {
+    background-image: url(img/background-weapons.png);
+  }
+
+  &.head {
+    background-image: url(img/background-head.png);
+  }
+
+  &.clothes {
+    background-image: url(img/background-clothes.png);
+  }
+
+  &.shoes {
+    background-image: url(img/background-shoes.png);
+  }
+}
+
+// TEMP
+input,
+button {
+  color: #000000;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #F7AE25;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.orange {
+  color: #F7AE25;
+}
+
+// Wrap any element with a div with this classname to
+// ensure that it doesn't take up more space than it needs
+.container {
+  //display: inline-block;
+}
+
+.gear-info-panel-a {
+  @extend .info-panel-a;
+
+  &.clothes {
+    background-image: url(img/info-a-clothes.png);
+  }
+
+  &.head {
+    background-image: url(img/info-a-head.png);
+  }
+
+  &.shoes {
+    background-image: url(img/info-a-shoes.png);
+  }
+
+  .item-name {
+    position: absolute;
+    left: 7%;
+    top: 2%;
+    font-size: 3.5vh;
+    display: inline-block;
+    @include transform(rotate(-2deg));
+  }
+
+  .item-image {
+    position: absolute;
+    width: 22%;
+    top: 26%;
+    left: 10%;
+  }
+
+  .brand-name {
+    position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    right: 18%;
+    top: 2.5%;
+    font-size: 2.2vh;
+    display: inline-block;
+    @include transform(rotate(2.75deg) scale(1.2,1));
+  }
+
+  .brand-image {
+    position: absolute;
+    width: 9%;
+    top: 5%;
+    right: 4%;
+    @include transform(rotate(10deg));
+
+  }
+
+  .main-ability {
+    position: absolute;
+    width: 15%;
+    top: 28%;
+    right: 32%;
+  }
+
+  .ability-1 {
+    position: absolute;
+    width: 8%;
+    bottom: 25%;
+    right: 50%;
+  }
+
+  .ability-2 {
+    position: absolute;
+    width: 8%;
+    bottom: 25%;
+    right: 36%;
+  }
+
+  .ability-3 {
+    position: absolute;
+    width: 8%;
+    bottom: 25%;
+    right: 22%;
+  }
+
+  .ability-name {
+    position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2vh;
+    left: 20%;
+    right: 0;
+    top: 38%;
+    @include transform(scale(1.2,1));
+  }
+
+  .slot-stars {
+    position: absolute;
+    display: inline-block;
+    width: 22.5%;
+    bottom: 28%;
+    left: 11%;
+
+    .star {
+      position: relative;
+      width: 10%;
+      margin: 3%;
+    }
+  }
+}
+
+.weapons-info-panel-a {
+  @extend .info-panel-a;
+
+  background-image: url(img/info-a-weapons.png);
+
+  .item-name {
+    position: absolute;
+    left: 8%;
+    top: 6.5%;
+    font-size: 4vh;
+    display: inline-block;
+    @include transform(rotate(-2deg));
+  }
+
+  .item-image {
+    position: absolute;
+    width: 22%;
+    top: 20%;
+    left: 8%;
+  }
+
+  .sub-image {
+    position: absolute;
+    width: 14%;
+    left: 33%;
+    top: 40%;
+  }
+
+  .special-image {
+    position: absolute;
+    width: 16%;
+    left: 13%;
+    top: 55%;
+  }
+
+  .stat-bar {
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    height: 5%;
+    left: 56%;
+    overflow: hidden;
+
+    &.stat-a {
+      top: 22.6%;
+    }
+    &.stat-b {
+      top: 28.2%;
+    }
+    &.stat-c {
+      top: 33.8%;
+    }
+
+    .stat-bar-img {
+      display: block;
+      min-width: 100%;
+      height: 100%;
+    }
+  }
+  .stat-label {
+    position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: 2vh;
+    @include transform(rotate(-1deg));
+
+    &.stat-a {
+      top: 21.8%;
+      right: 46%;
+    }
+
+    &.stat-b {
+      top: 27.5%;
+      right: 46%;
+    }
+
+    &.stat-c {
+      top: 33.2%;
+      right: 46%;
+    }
+  }
+
+  .weapon-text {
+    position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: 2.4vh;
+    @include transform(rotate(1deg));
+
+    &.sub-label {
+      color: #cae300;
+      top: 43%;
+      left: 49%;
+    }
+
+    &.special-label {
+      color: #cae300;
+      top: 61%;
+      left: 32%;
+    }
+
+    &.sub-name {
+      top: 49%;
+      left: 49%;
+    }
+
+    &.special-name {
+      top: 68%;
+      left: 32%;
+    }
+  }
+}
+
+.item-panel {
+  $back-btn-height: 9%;
+  $item-size: 20%;
+  $pg-btn-height: 12%;
+  $pg-btn-width: 4%;
+  $margin-size: 3%;
+
+  background-image: url(img/item-panel.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  right: 46%;
+/*   height: 66%;
+  margin-top: 3%;
+  right: 55%; */
+  height: 66vh;
+  display: inline-block;
+  position: absolute;
+  //height: (3 * $item-size) + (6 * $margin-size);
+  //width: (4 * $item-size) + (5 * $margin-size) + (2 * $pg-btn-size);
+  //height: 75%;
+  //width: 50%;
+
+  //min-width: 50%;
+  //margin-left: 2.5%;
+  margin-top: 2.5%;
+
+  z-index: 4;
+
+  .pagination-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -$pg-btn-height/2;
+    height: $pg-btn-height;
+    //width: $pg-btn-size;
+
+    &.lb {
+      //left: $margin-size/2;
+      left: -2.5%;
+    }
+
+    &.rb {
+      right: -2.5%;
+    }
+  }
+
+  .back-btn {
+    position: absolute;
+    bottom: -$margin-size/2;
+    left: 4%;
+    height: $back-btn-height;
+  }
+
+
+  .item-container {
+    display: inline-block;
+    position: absolute;
+    left: 9%;
+    top: 47%;
+    height: (3 * $item-size) + (2 * $margin-size);
+    width: (4 * $item-size) + (3 * $margin-size);
+    margin-top: -((3 * $item-size) + $margin-size)/2;
+
+    .item-box {
+      display: inline-block;
+      position: relative;
+      margin-bottom: 0%;
+      margin-top: $margin-size;
+      margin-left: $margin-size;
+      height: 38%;
+
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.weapons {
+        background-image: url(img/item-box-weapons.png);
+
+        .sub-image {
+          position: absolute;
+          bottom: 0%;
+          width: 35%;
+          left: 13%;
+        }
+
+        .special-image {
+          position: absolute;
+          bottom: 0%;
+          width: 35%;
+          right: 10%;
+        }
+      }
+
+      &.gear {
+        .main-ability {
+          position: absolute;
+          width: 26%;
+          bottom: 3%;
+          left: 10%;
+        }
+
+        .ability-1 {
+          position: absolute;
+          width: 20%;
+          bottom: 5%;
+          left: 34%;
+        }
+
+        .ability-2 {
+          position: absolute;
+          width: 20%;
+          bottom: 5%;
+          left: 53%;
+        }
+
+        .ability-3 {
+          position: absolute;
+          width: 20%;
+          bottom: 5%;
+          left: 71%;
+        }
+      }
+
+      &.head {
+        @extend .gear;
+        background-image: url(img/item-box-head.png);
+      }
+
+      &.clothes {
+        @extend .gear;
+        background-image: url(img/item-box-clothes.png);
+      }
+
+      &.shoes {
+        @extend .gear;
+        background-image: url(img/item-box-shoes.png);
+      }
+
+      .item-image {
+        position: absolute;
+        top: 2%;
+        left: 13%;
+        width: 75%;
+        z-index: 1;
+      }
+
+      .splat {
+        position: absolute;
+        width: 130%;
+        z-index: 0;
+        @include transform(translate(-10%, -15%));
+      }
+
+      // First 4
+      &:nth-child(-n+4) {
+        margin-top: 0%;
+      }
+
+      // Every 4th
+      &:nth-child(4n+1) {
+        margin-left: 0%;
+      }
+    }
+  }
+
+  .page-circles {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    bottom: 4%;
+    margin: 0 auto;
+    text-align: center;
+
+    .circle {
+      display: inline-block;
+      width: 1.25vh;
+      height: 1.25vh;
+      margin-right: 1.5%;
+      border-radius: 100%;
+      background-color: black;
+
+      &.active {
+        &.weapons {
+          background-color: #9fb71b;
+        }
+
+        &.head {
+          background-color: #d2817e;
+        }
+
+        &.clothes {
+          background-color: #0cb7d1;
+        }
+
+        &.shoes {
+          background-color: #d8960c;
+        }
+      }
+    }
+  }
+}
+
+
+.category-container {
+  display: flex;
+  justify-content: center;
+}
+
+// Removes the blue highlight box around input when clicked on
+input:focus {
+  outline: 0;
+}
+.g-recaptcha {
+  display: inline;
+}

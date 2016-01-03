@@ -1,0 +1,71 @@
+{
+  "name": "freshestsquid",
+  "version": "0.1.0",
+  "description": "Create the squid of your dreams!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisngobanh/freshestsquid.com.git"
+  },
+  "author": "Christopher Banh",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chrisngobanh/freshestsquid.com/issues"
+  },
+  "homepage": "https://github.com/chrisngobanh/freshestsquid.com#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "axios": "^0.8.1",
+    "bcrypt": "^0.8.5",
+    "bluebird": "^3.0.6",
+    "body-parser": "^1.14.1",
+    "clipboard": "^1.5.5",
+    "connect-session-sequelize": "^2.3.1",
+    "director": "^1.2.8",
+    "express": "^4.13.1",
+    "express-session": "^1.12.1",
+    "hashids": "1.0.2",
+    "helmet": "^0.15.0",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "mysql": "^2.9.0",
+    "nunjucks": "^1.3.4",
+    "react": "^0.13.3",
+    "react-helmet": "^2.2.0",
+    "sequelize": "^3.14.2",
+    "validator": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.9.3",
+    "browserify": "^11.2.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.5.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-eslint": "^1.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-s3": "^0.3.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<!--
+Hey Squiddo! Are you interested in seeing the code that powers Freshest Squid?
+
+Freshest Squid's source code is available on GitHub for free! https://github.com/chrisngobanh/freshestsquid
+-->
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content=" freshestsquid, freshestsquid.com, fresh, squid, splatoon " />
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes" />
+
+    {{ head.title.toString() }}
+    {{ head.meta.toString() }}
+    {{ head.script.toString() }}
+    <!-- TODO: Finish this -->
+    <!-- <meta property="og:image" content="https://freshestsquid.com/img/freshestsquid.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600"> -->
+
+    <link rel="icon" href="{{'favicon.ico' | cdn}}" type="image/x-icon">
+
+    <link href="{{'styles.min.css' | cdn}}" rel="stylesheet">
+  </head>
+
+  <body>
+    <noscript>
+      <h1>Sorry Squiddo, but you need <font color="orange">JavaScript</font> to use <font color="orange">Freshest Squid</font>.
+      <br />
+      <br />
+      Click <a href="http://www.enable-javascript.com/">here</a> to learn how to enable it in your browser.
+      </h1>
+    </noscript>
+    {{ react }}
+    <script src="{{'scripts.min.js' | cdn}}"></script>
+  </body>
+
+</html>
