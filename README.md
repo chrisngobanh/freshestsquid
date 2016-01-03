@@ -98,8 +98,11 @@ This may be because I run Freshest Squid on a low-budget VPS that also runs othe
 ## Special Booyahs!
 
 Booyah! to [@erinbui](https://github.com/erinbui) for creating nearly all of the graphics used in the website.
+
 Booyah! to [/u/macguffinman](https://www.reddit.com/user/macguffinman) for the [Splatoon Gear Guide](https://docs.google.com/spreadsheets/d/1mE97vf8FxdfvR6pt7tFvYXkYGSZGg4AsrTI_2veUlbs/).
+
 Booyah! to [JapanYoshi](http://japanyoshi.tumblr.com/) for [Project Paintball](http://fizzystack.web.fc2.com/paintball.html), the font used in Freshest Squid.
+
 Booyah! to [Inkipedia](http://splatoonwiki.org/wiki) for the ability icons.
 
 **[⬆ back to top](#table-of-contents)**
