@@ -114,7 +114,7 @@ I'm open to all help, from coding and design to ideas. I'd even appreciate it if
 Here are the ground rules:
 
 * All JavaScript code must follow [this style guide](https://github.com/airbnb/javascript). All JSX code must follow [this style guide](https://github.com/airbnb/javascript/tree/master/react).
-  * If ESLint doesn't approve your code, then I won't as so as well.
+  * If ESLint doesn't approve your code, then I probably won't as well.
   * You can disable some options of ESLint if you need to.
 * If there's an item in `To Do` or `Wishlist` in the [Trello board](https://trello.com/b/IGvXO35z/freshest-squid), you may code it yourself and [submit a pull request](https://github.com/chrisngobanh/freshestsquid/compare).
 * If you have a great idea, [open a new issue](https://github.com/chrisngobanh/freshestsquid/issues/new) on it and I'll check it out!
