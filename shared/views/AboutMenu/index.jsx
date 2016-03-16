@@ -40,7 +40,7 @@ class AboutMenu extends BaseComponent {
         <p><span className="orange">Freshest Squid</span> is a not-for-profit
         open-source software, maintained
         by <a target="_blank" href="https://github.com/chrisngobanh">Christopher Banh</a>, and
-        released under the
+        released under the&nbsp;
         <a target="_blank" href="https://github.com/chrisngobanh/freshestsquid/blob/master/LICENSE">
           MIT License
         </a>

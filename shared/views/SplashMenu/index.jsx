@@ -113,6 +113,8 @@ class SplashMenu extends BaseComponent {
             <button>Submit</button>
           </form>
         </div>
+
+        <h3><a href="/browse">Try Freshest Squid as a guest.</a></h3>
         <a href="/about">About Freshest Squid</a>
       </div>
     );
