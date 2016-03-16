@@ -28,7 +28,7 @@ node_modules
 # Misc
 .DS_Store
 .idea
-data
+# data
 
 public/scripts.min.js
 public/styles.min.css

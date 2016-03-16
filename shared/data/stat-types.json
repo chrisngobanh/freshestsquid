@@ -1,0 +1,33 @@
+{
+    "Shooter": {
+        "statA": "Range",
+        "statB": "Attack",
+        "statC": "Fire Rate"
+    },
+     "Blaster": {
+        "statA": "Range",
+        "statB": "Impact",
+        "statC": "Fire Rate"
+    },
+     "Charger": {
+        "statA": "Range",
+        "statB": "Charge Rate",
+        "statC": "Mobility"
+    },
+     "Roller": {
+        "statA": "Range",
+        "statB": "Ink Speed",
+        "statC": "Weight"
+    },
+     "Slosher": {
+        "statA": "Range",
+        "statB": "Attack",
+        "statC": "Weight"
+    },
+     "Splatling": {
+        "statA": "Range",
+        "statB": "Charge Rate",
+        "statC": "Mobility"
+    }
+
+}

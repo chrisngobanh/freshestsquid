@@ -1,0 +1,2662 @@
+{
+    "head": [
+        {
+            "name": "B-Ball Headband",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 300,
+            "ability": "Opening Gambit"
+        },
+        {
+            "name": "Backwards Cap",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Blowfish Bell Hat",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Camping Hat",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Cycling Cap",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "FishFry Visor",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Full Moon Glasses",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Golf Visor",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Jet Cap",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Jogging Headband",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Lightweight Cap",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Paisley Bandana",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 750,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Retro Specs",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Short Beanie",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Sporty Bobble Hat",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Tenacity"
+        },
+        {
+            "name": "Squash Headband",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Straw Boater",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Streetstyle Cap",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Takoroka Mesh",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Tennis Headband",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 300,
+            "ability": "Comeback"
+        },
+        {
+            "name": "Tinted Shades",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 350,
+            "ability": "Last-Ditch Effort"
+        },
+        {
+            "name": "Two-Stripe Mesh",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Urchins Cap",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "White Headband",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": "Default",
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Zekko Mesh",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Bamboo Hat",
+            "brand": "Inkline",
+            "slots": 2,
+            "cost": 2200,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Black Arrowbands",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Tenacity"
+        },
+        {
+            "name": "Bobble Hat",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Camo Mesh",
+            "brand": "Firefin",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Classic Straw Boater",
+            "brand": "Skalop",
+            "slots": 2,
+            "cost": 1500,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Cycle King Cap",
+            "brand": "Tentatek",
+            "slots": 2,
+            "cost": 2400,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Designer Headphones",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Fake Contacts",
+            "brand": "Tentatek",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Five-Panel Cap",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Comeback"
+        },
+        {
+            "name": "Hero Headset Replica",
+            "brand": "Cuttlegear",
+            "slots": 2,
+            "cost": "Story",
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Noise Cancelers",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Octoling Goggles",
+            "brand": "Cuttlegear",
+            "slots": 2,
+            "cost": "Story",
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Power Mask",
+            "brand": "Amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Safari Hat",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2300,
+            "ability": "Last-Ditch Effort"
+        },
+        {
+            "name": "Samurai Helmet",
+            "brand": "Amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Skate Helmet",
+            "brand": "Skalop",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Skull Bandana",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 1550,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Snorkel Mask",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Splash Goggles",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "SQUID GIRL Hat",
+            "brand": "The SQUID GIRL",
+            "slots": 2,
+            "cost": 1600,
+            "ability": "Opening Gambit"
+        },
+        {
+            "name": "Squid Hairclip",
+            "brand": "Amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Squidvader Cap",
+            "brand": "Skalop",
+            "slots": 2,
+            "cost": 2300,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Striped Beanie",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 1500,
+            "ability": "Opening Gambit"
+        },
+        {
+            "name": "Studio Headphones",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Sun Visor",
+            "brand": "Tentatek",
+            "slots": 2,
+            "cost": 2600,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Traditional Headband",
+            "brand": "Famitsu",
+            "slots": 2,
+            "cost": 1600,
+            "ability": "Comeback"
+        },
+        {
+            "name": "Treasure Hunter",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "18K Aviators",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 12000,
+            "ability": "Last-Ditch Effort"
+        },
+        {
+            "name": "Armor Helmet Replica",
+            "brand": "Cuttlegear",
+            "slots": 3,
+            "cost": "Level 25",
+            "ability": "Tenacity"
+        },
+        {
+            "name": "Bike Helmet",
+            "brand": "Skalop",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Gas Mask",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 10000,
+            "ability": "Tenacity"
+        },
+        {
+            "name": "Jungle Hat",
+            "brand": "Firefin",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Legendary Cap",
+            "brand": "Cuttlegear",
+            "slots": 3,
+            "cost": "Level 50",
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Octoglasses",
+            "brand": "Firefin",
+            "slots": 3,
+            "cost": 8800,
+            "ability": "Last-Ditch Effort"
+        },
+        {
+            "name": "Paintball Mask",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 10000,
+            "ability": "Comeback"
+        },
+        {
+            "name": "Pilot Goggles",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 9800,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Soccer Headband",
+            "brand": "Tentatek",
+            "slots": 3,
+            "cost": 8000,
+            "ability": "Tenacity"
+        },
+        {
+            "name": "Special Forces Beret",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 9700,
+            "ability": "Opening Gambit"
+        },
+        {
+            "name": "Squid Nordic",
+            "brand": "Skalop",
+            "slots": 3,
+            "cost": 9500,
+            "ability": "Comeback"
+        },
+        {
+            "name": "Squid-Stitch Cap",
+            "brand": "Skalop",
+            "slots": 3,
+            "cost": 8500,
+            "ability": "Opening Gambit"
+        },
+        {
+            "name": "Stealth Goggles",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 9800,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Tentacles Helmet",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Visor Skate Helmet",
+            "brand": "Skalop",
+            "slots": 3,
+            "cost": 10000,
+            "ability": "Last-Ditch Effort"
+        },
+        {
+            "name": "White Arrowbands",
+            "brand": "Zekko",
+            "slots": 3,
+            "cost": 8000,
+            "ability": "Special Duration Up"
+        }
+    ],
+    "clothes": [
+        {
+            "name": "Aloha Shirt",
+            "brand": "Forge",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "B-Ball Jersey (Away)",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Basic Tee",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": "Default",
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Black 8-Bit FishFry",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Black Baseball LS",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Black Layered LS",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Black Pipe Tee",
+            "brand": "KOG",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Black Polo",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Recon"
+        },
+        {
+            "name": "Black Squideye",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Black Tee",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Blue Peaks Tee",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Camo Layered LS",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Carnivore Tee",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "FC Albacore",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Fugu Tee",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 750,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Grape Tee",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Gray College Sweat",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Gray Vector Tee",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Green Striped LS",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ninja Squid"
+        },
+        {
+            "name": "Herbivore Tee",
+            "brand": "FIrefin",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Ninja Squid"
+        },
+        {
+            "name": "Ivory Peaks Tee",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Haunt"
+        },
+        {
+            "name": "Krak-On 528",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Linen Shirt",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Lumberjack Shirt",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Mint Tee",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Navy College Sweat",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Orange Cardigan",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Part-Time Pirate",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Pearl Tee",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Pirate-Stripe Tee",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Purple Camo LS",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Bomb Range Up",
+            "undefined": " "
+        },
+        {
+            "name": "Rainy-Day Tee",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 300,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Red Vector Tee",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Reel Sweat",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Rockenberg Black",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Rodeo Shirt",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 750,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Round-Collar Shirt",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Sage Polo",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Cold Blooded"
+        },
+        {
+            "name": "Sailor-Stripe Tee",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Shrimp-Pink Polo",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Ninja Squid"
+        },
+        {
+            "name": "Sky-Blue Squideye",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Cold Blooded"
+        },
+        {
+            "name": "Squid-Pattern Waistcoat",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Squid-Stitch Tee",
+            "brand": "Skalop",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Squidmark LS",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Haunt"
+        },
+        {
+            "name": "Squidmark Sweat",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Squidstar Waistcoat",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 650,
+            "ability": "Cold Blooded"
+        },
+        {
+            "name": "Striped Peaks LS",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Sunny-Day Tee",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 300,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Tricolor Rugby",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Urchins Jersey",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Varsity Baseball LS",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Recon"
+        },
+        {
+            "name": "White 8-Bit FishFry",
+            "brand": "Firefin",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Recon"
+        },
+        {
+            "name": "White Baseball LS",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "White Layered LS",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "White Line Tee",
+            "brand": "KOG",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "White LS",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "White Tee",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 400,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Yellow Layered LS",
+            "brand": "SquidForce",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Zekko Baseball LS",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Zink Layered LS",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Zink LS",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Anchor Sweat",
+            "brand": "SquidForce",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Cold Blooded"
+        },
+        {
+            "name": "B-Ball Jersey (Home)",
+            "brand": "Zink",
+            "slots": 2,
+            "cost": 400,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Baby-Jelly Shirt",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 2200,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Berry Ski Jacket",
+            "brand": "Inkline",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Black Anchor Tee",
+            "brand": "SquidForce",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Recon"
+        },
+        {
+            "name": "Black LS",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Choco Layered LS",
+            "brand": "Takoroka",
+            "slots": 2,
+            "cost": 1800,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Cycling Shirt",
+            "brand": "Zink",
+            "slots": 2,
+            "cost": 2900,
+            "ability": "Cold Blooded"
+        },
+        {
+            "name": "Dark Urban Vest",
+            "brand": "Firefin",
+            "slots": 2,
+            "cost": 10000,
+            "ability": "Cold Blooded"
+        },
+        {
+            "name": "Firefin Navy Sweat",
+            "brand": "Firefin",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Forge Inkling Parka",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2900,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Forge Octarian Jacket",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 2700,
+            "ability": "Haunt"
+        },
+        {
+            "name": "Gray Mixed Shirt",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Green Cardigan",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 1700,
+            "ability": "Recon"
+        },
+        {
+            "name": "Green Tee",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 1500,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Green Zip Hoodie",
+            "brand": "Firefin",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Green-Check Shirt",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Hero Jacket Replica",
+            "brand": "Cuttlegear",
+            "slots": 2,
+            "cost": "Story",
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Layered Vector LS",
+            "brand": "Takoroka",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Logo Aloha Shirt",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2900,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Navy Striped LS",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 2300,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Octoling Armor",
+            "brand": "Cuttlegear",
+            "slots": 2,
+            "cost": "Story",
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Power Armor",
+            "brand": "amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Red-Check Shirt",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Rockenberg White",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Samurai Jacket",
+            "brand": "amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "School Jersey",
+            "brand": "Zink",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Ninja Squid"
+        },
+        {
+            "name": "School Uniform",
+            "brand": "amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Slipstream United",
+            "brand": "Takoroka",
+            "slots": 2,
+            "cost": 1800,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "SQUID GIRL Tunic",
+            "brand": "The SQUID GIRL",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Striped Rugby",
+            "brand": "Takoroka",
+            "slots": 2,
+            "cost": 2300,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Striped Shirt",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 2200,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Traditional Apron",
+            "brand": "Famitsu",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "White Sailor Suit",
+            "brand": "Forge",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "White Shirt",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 1800,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "White Striped LS",
+            "brand": "Splash Mob",
+            "slots": 2,
+            "cost": 2300,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Yellow Urban Vest",
+            "brand": "Firefin",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Haunt"
+        },
+        {
+            "name": "Zapfish Satin Jacket",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2900,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Zekko Hoodie",
+            "brand": "Zekko",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Ninja Squid"
+        },
+        {
+            "name": "Armor Jacket Replica",
+            "brand": "Cuttlegear",
+            "slots": 3,
+            "cost": "Level 30",
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Baseball Jersey",
+            "brand": "Firefin",
+            "slots": 3,
+            "cost": 10000,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Black Inky Rider",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 10100,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Blue Sailor Suit",
+            "brand": "Forge",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Camo Zip Hoodie",
+            "brand": "Firefin",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Cycle King Jersey",
+            "brand": "Tentatek",
+            "slots": 3,
+            "cost": 8900,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Forest Vest",
+            "brand": "Inkline",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Layered Anchor LS",
+            "brand": "SquidForce",
+            "slots": 3,
+            "cost": 8500,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Mountain Vest",
+            "brand": "Inkline",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Octo Tee",
+            "brand": "Cuttlegear",
+            "slots": 3,
+            "cost": "Level 45",
+            "ability": "Haunt"
+        },
+        {
+            "name": "Olive Ski Jacket",
+            "brand": "Inkline",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Recon"
+        },
+        {
+            "name": "Reggae Tee",
+            "brand": "Skalop",
+            "slots": 3,
+            "cost": 8200,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Retro Gamer Jersey",
+            "brand": "Zink",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Retro Sweat",
+            "brand": "SquidForce",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Shirt & Tie",
+            "brand": "Splash Mob",
+            "slots": 3,
+            "cost": 8400,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Splatfest Tee",
+            "brand": "SquidForce",
+            "slots": 3,
+            "cost": "Splatfest",
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Squid Satin Jacket",
+            "brand": "Zekko",
+            "slots": 3,
+            "cost": 8900,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Varsity Jacket",
+            "brand": "Zekko",
+            "slots": 3,
+            "cost": 12000,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Vintage Check Shirt",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Haunt"
+        },
+        {
+            "name": "White Anchor Tee",
+            "brand": "SquidForce",
+            "slots": 3,
+            "cost": 8000,
+            "ability": "Ninja Squid"
+        },
+        {
+            "name": "White Inky Rider",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 11800,
+            "ability": "Special Duration Up"
+        }
+    ],
+    "shoes": [
+        {
+            "name": "Acerola Rain Boots",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Banana Basics",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Bomb Sniffer"
+        },
+        {
+            "name": "Black Trainers",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Blue Lo-Tops",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Blue Sea Slugs",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Blue Slip-Ons",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 12000,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Blueberry Casuals",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Bubble Rain Boots",
+            "brand": "Inkline",
+            "slots": 1,
+            "cost": 450,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Clownfish Basics",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Cream Basics",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": "Default",
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Cream Hi-Tops",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Stealth Jump"
+        },
+        {
+            "name": "Cyan Trainers",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Hunter Hi-Tops",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Mawcasins",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 750,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Neon Sea Slugs",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ink Resistance Up"
+        },
+        {
+            "name": "Orange Arrows",
+            "brand": "Takoroka",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Orange Lo-Tops",
+            "brand": "Zekko",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Oyster Clogs",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Pink Trainers",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 500,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Purple Hi-Horses",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Purple Sea Slugs",
+            "brand": "Tentatek",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Red Hi-Horses",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Red Slip-Ons",
+            "brand": "Krak-On",
+            "slots": 1,
+            "cost": 8000,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Roasted Brogues",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Shark Moccasins",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Squink Wingtips",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Strapping Reds",
+            "brand": "Splash Mob",
+            "slots": 1,
+            "cost": 700,
+            "ability": "Ink Resistance Up"
+        },
+        {
+            "name": "White Kicks",
+            "brand": "Rockenberg",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "White Seahorses",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 600,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Zombie Hi-Horses",
+            "brand": "Zink",
+            "slots": 1,
+            "cost": 800,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Black Seahorses",
+            "brand": "Zink",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Cherry Kicks",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Stealth Jump"
+        },
+        {
+            "name": "Choco Clogs",
+            "brand": "Krak-On",
+            "slots": 2,
+            "cost": 1800,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Custom Trail Boots",
+            "brand": "Inkline",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Gold Hi-Horses",
+            "brand": "Zink",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Green Rain Boots",
+            "brand": "Inkline",
+            "slots": 2,
+            "cost": 1600,
+            "ability": "Stealth Jump"
+        },
+        {
+            "name": "Hero Runner Replicas",
+            "brand": "Cuttlegear",
+            "slots": 2,
+            "cost": "Story",
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "LE Soccer Cleats",
+            "brand": "Takoroka",
+            "slots": 2,
+            "cost": 2600,
+            "ability": "Ink Resistance Up"
+        },
+        {
+            "name": "Moto Boots",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Quick Respawn"
+        },
+        {
+            "name": "Octoling Boots",
+            "brand": "Cuttlegear",
+            "slots": 2,
+            "cost": "Story",
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Plum Casuals",
+            "brand": "Krak-On",
+            "slots": 2,
+            "cost": 2000,
+            "ability": "Damage Up"
+        },
+        {
+            "name": "Power Boots",
+            "brand": "amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Ink Saver (Main)"
+        },
+        {
+            "name": "Punk Yellows",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Punk Whites",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "Red Hi-Tops",
+            "brand": "Krak-On",
+            "slots": 2,
+            "cost": 1800,
+            "ability": "Ink Resistance Up"
+        },
+        {
+            "name": "Samurai Shoes",
+            "brand": "amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "School Shoes",
+            "brand": "amiibo",
+            "slots": 2,
+            "cost": "Amiibo",
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "SQUID GIRL Shoes",
+            "brand": "The SQUID GIRL",
+            "slots": 2,
+            "cost": 1700,
+            "ability": "Swim Speed Up"
+        },
+        {
+            "name": "Squid-Stitch Slip-Ons",
+            "brand": "Krak-On",
+            "slots": 2,
+            "cost": 1500,
+            "ability": "Defense Up"
+        },
+        {
+            "name": "Tan Work Boots",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 3000,
+            "ability": "Bomb Range Up"
+        },
+        {
+            "name": "Traditional Sandals",
+            "brand": "Famitsu",
+            "slots": 2,
+            "cost": 1700,
+            "ability": "Run Speed Up"
+        },
+        {
+            "name": "Trail Boots",
+            "brand": "Inkline",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Ink Recovery Up"
+        },
+        {
+            "name": "Turquoise Kicks",
+            "brand": "Rockenberg",
+            "slots": 2,
+            "cost": 2800,
+            "ability": "Special Charge Up"
+        },
+        {
+            "name": "White Arrows",
+            "brand": "Takoroka",
+            "slots": 2,
+            "cost": 2500,
+            "ability": "Special Duration Up"
+        },
+        {
+            "name": "Yellow Seahorses",
+            "brand": "Zink",
+            "slots": 2,
+            "cost": 1500,
+            "ability": "Bomb Sniffer"
+        },
+        {
+            "name": "Armor Boot Replicas",
+            "brand": "Cuttlegear",
+            "slots": 3,
+            "cost": "Level 35",
+            "ability": "Ink Saver (main)"
+        },
+        {
+            "name": "Blue Moto Boots",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 300,
+            "ability": "Ink Resistance Up"
+        },
+        {
+            "name": "Crazy Arrows",
+            "brand": "Takoroka",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Stealth Jump"
+        },
+        {
+            "name": "Icy Down Boots",
+            "brand": "Tentatek",
+            "slots": 3,
+            "cost": 8200,
+            "ability": "Stealth Jump"
+        },
+        {
+            "name": "LE Lo-Tops",
+            "brand": "Zekko",
+            "slots": 3,
+            "cost": 8000,
+            "ability": "Ink Saver (Sub)"
+        },
+        {
+            "name": "Pro Trail Boots",
+            "brand": "Inkline",
+            "slots": 3,
+            "cost": 9800,
+            "ability": "Bomb Sniffer"
+        },
+        {
+            "name": "Punk Cherries",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 9000,
+            "ability": "Bomb Sniffer"
+        },
+        {
+            "name": "Red Sea Slugs",
+            "brand": "Tentatek",
+            "slots": 3,
+            "cost": 300,
+            "ability": "Special Saver"
+        },
+        {
+            "name": "Red Work Boots",
+            "brand": "Rockenberg",
+            "slots": 3,
+            "cost": 11000,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Snowy Down Boots",
+            "brand": "Tentatek",
+            "slots": 3,
+            "cost": 8000,
+            "ability": "Quick Super Jump"
+        },
+        {
+            "name": "Soccer Cleats",
+            "brand": "Takoroka",
+            "slots": 3,
+            "cost": 9600,
+            "ability": "Bomb Sniffer"
+        },
+        {
+            "name": "Strapping Whites",
+            "brand": "Splash Mob",
+            "slots": 3,
+            "cost": 8700,
+            "ability": "Ink Saver (Sub)"
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Splattershot Jr.",
+            "level": 1,
+            "cost": "Default",
+            "sub": "Splat Bomb",
+            "special": "Bubbler",
+            "type": "Shooter",
+            "statA": 32,
+            "statB": 32,
+            "statC": 75,
+            "description": "Everyone's got to start somewhere. Good rate of fire and efficient ink use to boot. Not the most accurate of weapons, but it sprays ink so wildly you're bound to hit something!"
+        },
+        {
+            "name": "Splattershot",
+            "level": 2,
+            "cost": 500,
+            "sub": "Burst Bomb",
+            "special": "Bomb Rush",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 45,
+            "statC": 55,
+            "description": "Developed after the Great Turf War, this weapon is easy enough for anyone to use. A great all-arounder with few weak points. A trusty companion through think and thin."
+        },
+        {
+            "name": "Custom Splattershot Jr.",
+            "level": 2,
+            "cost": 800,
+            "sub": "Disruptor",
+            "special": "Echolocator",
+            "type": "Shooter",
+            "statA": 32,
+            "statB": 32,
+            "statC": 75,
+            "description": "A new build of the Splattershot Jr., built by Sheldon after being inspired by some odd fluid he found stuck to the blueprints. Throw Disruptors at your opponents to slow them down."
+        },
+        {
+            "name": "Hero Charger Replica",
+            "level": 3,
+            "cost": 1200,
+            "sub": "Splat Bomb",
+            "special": "Bomb Rush",
+            "type": "Charger",
+            "statA": 85,
+            "statB": 50,
+            "statC": 40,
+            "description": "A sweet replica created by Sheldon from his grandfather's blueprints. It looks funky fresh, to be sure, but apparently it's just a regular Splat Charger with a fancy paint job..."
+        },
+        {
+            "name": "Hero Roller Replica",
+            "level": 3,
+            "cost": 1200,
+            "sub": "Suction Bomb",
+            "special": "Killer Wail",
+            "type": "Roller",
+            "statA": 55,
+            "statB": 50,
+            "statC": 40,
+            "description": "A sweet replica created by Sheldon from his grandfather’s blueprints. It looks funky fresh, to be sure, but apparently it’s just a regular Splat Roller with a fancy paint job..."
+        },
+        {
+            "name": "Hero Shot Replica",
+            "level": 3,
+            "cost": 1200,
+            "sub": "Burst Bomb",
+            "special": "Bomb Rush",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 45,
+            "statC": 55,
+            "description": "A sweet replica created by Sheldon from his grandfather's blueprints. It looks funky fresh, to be sure, but apparently it's just a regular Splattershot with a fancy paint job..."
+        },
+        {
+            "name": "Splat Charger",
+            "level": 3,
+            "cost": 1000,
+            "sub": "Splat Bomb",
+            "special": "Bomb Rush",
+            "type": "Charger",
+            "statA": 85,
+            "statB": 50,
+            "statC": 40,
+            "description": "Charges up before releasing a concentrated, high-powered burst with excellent range. Charging takes a while, so be careful not to open yourself up to attack!"
+        },
+        {
+            "name": "Splat Roller",
+            "level": 3,
+            "cost": 1000,
+            "sub": "Suction Bomb",
+            "special": "Killer Wail",
+            "type": "Roller",
+            "statA": 55,
+            "statB": 50,
+            "statC": 40,
+            "description": "A weapon adopted from an ordinary paint roller. Aside from inking the ground, it can also be swung to hurl globs of ink at your opponents."
+        },
+        {
+            "name": "Kelp Splat Charger",
+            "level": 4,
+            "cost": 2500,
+            "sub": "Sprinkler",
+            "special": "Killer Wail",
+            "type": "Charger",
+            "statA": 85,
+            "statB": 50,
+            "statC": 40,
+            "description": "A Splat Charger modified by Sheldon using some seaweed that was stuck to the blueprints. Maybe the Sprinkler sub weapon is meant to keep the seaweed fresh?"
+        },
+        {
+            "name": "Tentatek Splattershot",
+            "level": 4,
+            "cost": 2000,
+            "sub": "Suction Bomb",
+            "special": "Inkzooka",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 45,
+            "statC": 55,
+            "description": "A slick Splattershot developed in collaboration with top gear brand Tentatek. With all-new options, the Tentatek Splattershot ensures you'll be ready for anything."
+        },
+        {
+            "name": ".52 Gal",
+            "level": 5,
+            "cost": 3000,
+            "sub": "Splash Wall",
+            "special": "Killer Wail",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 70,
+            "statC": 30,
+            "description": "A high-powered weapon that pumps out a lot of ink with each shot. It doesn't take many shots to splat an opponent, which is a good thing given its rather slow rate of fire."
+        },
+        {
+            "name": "N-ZAP '85",
+            "level": 5,
+            "cost": 3500,
+            "sub": "Splat Bomb",
+            "special": "Echolocator",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 32,
+            "statC": 75,
+            "description": "Each shot is kind of weak, but the high rate of fire makes up for it. This weapon's popularity is due not only to its helpful special but also to its snazzy futuristic design."
+        },
+        {
+            "name": "Slosher",
+            "level": 5,
+            "cost": 5600,
+            "sub": "Burst Bomb",
+            "special": "Inkstrike",
+            "type": "Slosher",
+            "statA": 52,
+            "statB": 90,
+            "statC": 50,
+            "description": "A weapons-grade bucket that hurls ink straight ahead over an impressive range. By adjusting the angle, it can be used to hit opponents who are up high or even on the other side of a wall."
+        },
+        {
+            "name": "Classic Squiffer",
+            "level": 6,
+            "cost": 5000,
+            "sub": "Point Sensor",
+            "special": "Bubbler",
+            "type": "Charger",
+            "statA": 65,
+            "statB": 70,
+            "statC": 60,
+            "description": "A charger equipped with a miniaturized ink compression tank. The charge time is short, but it still packs a serious punch. The range leaves a little to be desired."
+        },
+        {
+            "name": "Heavy Splatling",
+            "level": 6,
+            "cost": 6800,
+            "sub": "Splash Wall",
+            "special": "Inkstrike",
+            "type": "Splatling",
+            "statA": 78,
+            "statB": 40,
+            "statC": 50,
+            "description": "Charge it up and let 'em have it with all six barrels! A maximum charge will unleash the full rapid-fire potential of this weapon."
+        },
+        {
+            "name": "Aerospray MG",
+            "level": 7,
+            "cost": 4500,
+            "sub": "Seeker",
+            "special": "Inkzooka",
+            "type": "Shooter",
+            "statA": 32,
+            "statB": 20,
+            "statC": 100,
+            "description": "Created by Sheldon from his grandfather’s blueprints. Extremely high rate of fire. Each shot is weak individually, but a sustained barrage can really pressure opponents."
+        },
+        {
+            "name": "Krak-On Splat Roller",
+            "level": 7,
+            "cost": 3000,
+            "sub": "Squid Beakon",
+            "special": "Kraken",
+            "type": "Roller",
+            "statA": 55,
+            "statB": 50,
+            "statC": 40,
+            "description": "Created in association with Krak-On, the freshest name in footwear. The sub weapon allows you to create a Super Jump point for your team, and the special lets you surge across the battlefield."
+        },
+        {
+            "name": "Splash-o-matic",
+            "level": 7,
+            "cost": 3900,
+            "sub": "Suction Bomb",
+            "special": "Bomb Rush",
+            "type": "Shooter",
+            "statA": 32,
+            "statB": 25,
+            "statC": 75,
+            "description": "One for the pros. Not outrageously powerful, but highly accurate. This weapon really comes into its own in the hands of someone with good aim."
+        },
+        {
+            "name": "Jet Squelcher",
+            "level": 8,
+            "cost": 4000,
+            "sub": "Splash Wall",
+            "special": "Inkstrike",
+            "type": "Shooter",
+            "statA": 80,
+            "statB": 32,
+            "statC": 40,
+            "description": "Designed to maximize range in order to effectively take on charger-type weapons. Boasts the greatest range of any automatic ink shooter."
+        },
+        {
+            "name": "N-ZAP '89",
+            "level": 8,
+            "cost": 4200,
+            "sub": "Sprinkler",
+            "special": "Inkstrike",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 32,
+            "statC": 75,
+            "description": "A follow-up to the N-ZAP '85, now with a sleek orange paint job. The sub and special have changed too, but its popularity remains as high as ever."
+        },
+        {
+            "name": "Inkbrush",
+            "level": 8,
+            "cost": 4800,
+            "sub": "Sprinkler",
+            "special": "Inkstrike",
+            "type": "Roller",
+            "statA": 10,
+            "statB": 100,
+            "statC": 100,
+            "description": "A newly developed weapon with high mobility and a sturdy brush design. Its ink trail is narrow, but it paints the ground at incredible speed and delivers swift close-range attacks."
+        },
+        {
+            "name": "Mini Splatling",
+            "level": 8,
+            "cost": 7200,
+            "sub": "Suction Bomb",
+            "special": "Inkzooka",
+            "type": "Splatling",
+            "statA": 58,
+            "statB": 80,
+            "statC": 90,
+            "description": "A lightweight and powerful Splatling cannon. A short charge time and rapid rate of fire deny the opponent any chance to catch their breath."
+        },
+        {
+            "name": "Blaster",
+            "level": 9,
+            "cost": 3500,
+            "sub": "Disruptor",
+            "special": "Killer Wail",
+            "type": "Blaster",
+            "statA": 25,
+            "statB": 70,
+            "statC": 20,
+            "description": "Fires a special ink shot that explodes in mid-air. This explosion can be used to attack a wide area."
+        },
+        {
+            "name": "L-3 Nozzlenose",
+            "level": 9,
+            "cost": 5800,
+            "sub": "Disruptor",
+            "special": "Killer Wail",
+            "type": "Shooter",
+            "statA": 60,
+            "statB": 40,
+            "statC": 65,
+            "description": "A semiautomatic weapon that fires three shots for every pull of the trigger. Keeping up a sustained barrage requires impeccable timing, but accuracy and range are good."
+        },
+        {
+            "name": "Neo Splash-o-matic",
+            "level": 9,
+            "cost": 6200,
+            "sub": "Burst Bomb",
+            "special": "Inkzooka",
+            "type": "Shooter",
+            "statA": 32,
+            "statB": 25,
+            "statC": 75,
+            "description": "A Splash-o-matic with a different Sub and Special setup, enabling a different fighting style. Throw the opponent off balance with Burst Bombs and use the Inkzooka to pick off distant foes."
+        },
+        {
+            "name": "Tri-Slosher",
+            "level": 9,
+            "cost": 7500,
+            "sub": "Disruptor",
+            "special": "Bubbler",
+            "type": "Slosher",
+            "statA": 33,
+            "statB": 80,
+            "statC": 70,
+            "description": "This bucket's three sections originally held cleaning products but now hold... the exact opposite. These segmented sections allow you to attack in three directions at once."
+        },
+        {
+            "name": "Heavy Splatling Deco",
+            "level": 9,
+            "cost": 9200,
+            "sub": "Point Sensor",
+            "special": "Kraken",
+            "type": "Splatling",
+            "statA": 78,
+            "statB": 40,
+            "statC": 50,
+            "description": "A rhinestone-encrusted Heavy Splatling. Flush out your opponents with the sub weapon, and then smash into them with the Kraken special!"
+        },
+        {
+            "name": "Carbon Roller",
+            "level": 10,
+            "cost": 6600,
+            "sub": "Burst Bomb",
+            "special": "Inkzooka",
+            "type": "Roller",
+            "statA": 20,
+            "statB": 65,
+            "statC": 60,
+            "description": "A strong, lightweight roller made from carbon fibre. Superb mobility means it spreads ink and delivers attacks with unparalleled speed."
+        },
+        {
+            "name": "H-3 Nozzlenose",
+            "level": 10,
+            "cost": 7500,
+            "sub": "Suction Bomb",
+            "special": "Echolocator",
+            "type": "Shooter",
+            "statA": 60,
+            "statB": 30,
+            "statC": 60,
+            "description": "A Nozzlenose that packs even more of a punch. A long interval between shots is made up for by high attack power, which makes splatting your opponent in one go a real possibility."
+        },
+        {
+            "name": "Splattershot Pro",
+            "level": 10,
+            "cost": 8000,
+            "sub": "Splat Bomb",
+            "special": "Inkstrike",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 55,
+            "statC": 40,
+            "description": "An updated Splattershot developed with advanced battlers in mind. Consumes a lot of ink and has a slow rate of fire, but its range and accuracy are vastly improved."
+        },
+        {
+            "name": "Slosher Deco",
+            "level": 10,
+            "cost": 8300,
+            "sub": "Splash Wall",
+            "special": "Kraken",
+            "type": "Slosher",
+            "statA": 52,
+            "statB": 90,
+            "statC": 50,
+            "description": "A decorated version of the Slosher. A sub weapon suited for head-on encounters coupled with a special designed for close-quarters combat makes for a fresh battling experience."
+        },
+        {
+            "name": ".52 Gal Deco",
+            "level": 11,
+            "cost": 4500,
+            "sub": "Seeker",
+            "special": "Inkstrike",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 70,
+            "statC": 30,
+            "description": "A bedazzled .52 Gal shooter. Your opponents may laugh at you...until you run them down with Seekers and the almighty Inkstrike."
+        },
+        {
+            "name": "New Squiffer",
+            "level": 11,
+            "cost": 4500,
+            "sub": "Ink Mine",
+            "special": "Inkzooka",
+            "type": "Charger",
+            "statA": 65,
+            "statB": 70,
+            "statC": 60,
+            "description": "Sheldon has used the blueprints to adjust the sub and special setup. Trap your opponents in a sticky situation with the sub, or deliver a long-range strike with the special."
+        },
+        {
+            "name": "Inkbrush Nouveau",
+            "level": 11,
+            "cost": 5900,
+            "sub": "Ink Mine",
+            "special": "Bubbler",
+            "type": "Roller",
+            "statA": 10,
+            "statB": 100,
+            "statC": 100,
+            "description": "An Inkbrush with a different sub and special setup. Fight on your own terms by using the sub to distract the opponent so you can get in close where this weapon shines."
+        },
+        {
+            "name": "Luna Blaster",
+            "level": 11,
+            "cost": 7700,
+            "sub": "Ink Mine",
+            "special": "Inkzooka",
+            "type": "Blaster",
+            "statA": 10,
+            "statB": 80,
+            "statC": 30,
+            "description": "A blaster tailored to close-quarters combat. It fires a shot that detonates powerfully at close range, and the Inkzooka special can help handle opponents who are farther away."
+        },
+        {
+            "name": "Hydra Splatling",
+            "level": 11,
+            "cost": 11600,
+            "sub": "Splat Bomb",
+            "special": "Echolocator",
+            "type": "Splatling",
+            "statA": 87,
+            "statB": 10,
+            "statC": 20,
+            "description": "A fire hydrant that's been converted into a powerful long-range Splatling cannon. It's slow to charge, but the long period of sustained fire makes up for it."
+        },
+        {
+            "name": ".96 Gal",
+            "level": 12,
+            "cost": 7600,
+            "sub": "Sprinkler",
+            "special": "Echolocator",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 80,
+            "statC": 15,
+            "description": "Similar to the .52 Gal, but with an improved mechanism and a more stable shot. Range and power have been increased...at the cost of being even more ink hungry."
+        },
+        {
+            "name": "Octobrush",
+            "level": 12,
+            "cost": 8500,
+            "sub": "Squid Beakon",
+            "special": "Kraken",
+            "type": "Roller",
+            "statA": 25,
+            "statB": 80,
+            "statC": 80,
+            "description": "A heavier brush with fatter bristles. Uses a lot of ink but offers a wider ink trail and excellent mobility. Can be swung to fling large globs of ink."
+        },
+        {
+            "name": "Sploosh-o-matic",
+            "level": 12,
+            "cost": 7500,
+            "sub": "Squid Beakon",
+            "special": "Killer Wail",
+            "type": "Shooter",
+            "statA": 15,
+            "statB": 55,
+            "statC": 75,
+            "description": "The perfect weapon for getting up close and personal! High attack power and rate of fire, but its range is extremely limited."
+        },
+        {
+            "name": "Splatterscope",
+            "level": 12,
+            "cost": 4200,
+            "sub": "Splat Bomb",
+            "special": "Bomb Rush",
+            "type": "Charger",
+            "statA": 88,
+            "statB": 50,
+            "statC": 35,
+            "description": "A Splat Charger fitted with a scope to allow for precision aiming. The range has been increased, but the field of vision is rather narrow."
+        },
+        {
+            "name": "Sloshing Machine",
+            "level": 12,
+            "cost": 13500,
+            "sub": "Splat Bomb",
+            "special": "Bomb Rush",
+            "type": "Slosher",
+            "statA": 55,
+            "statB": 95,
+            "statC": 45,
+            "description": "A compact washing machine that's been adapted for battle. The spinning action means that the area around the ink glob also gets a dose of ink."
+        },
+        {
+            "name": "Aerospray RG",
+            "level": 13,
+            "cost": 9300,
+            "sub": "Ink Mine",
+            "special": "Inkstrike",
+            "type": "Shooter",
+            "statA": 32,
+            "statB": 20,
+            "statC": 100,
+            "description": "This weapon performs similarly to the Aerospray MG, but the loadout comes with Ink Mine instead of the Seeker. This loadout is more effective in Splat Zones than Turf War. Consider using the Ink Recovery Up ability to replenish ink faster after dropping an Ink Mine near an objective or chokepoint."
+        },
+        {
+            "name": "L-3 Nozzlenose D",
+            "level": 13,
+            "cost": 6600,
+            "sub": "Burst Bomb",
+            "special": "Kraken",
+            "type": "Shooter",
+            "statA": 60,
+            "statB": 45,
+            "statC": 65,
+            "description": "A specially designed L-3 Nozzlenose with a logo on it. The sub weapon lets you finish off opponents who are still standing, and the special allows you to strike from up close."
+        },
+        {
+            "name": "Carbon Roller Deco",
+            "level": 13,
+            "cost": 7600,
+            "sub": "Seeker",
+            "special": "Bomb Rush",
+            "type": "Roller",
+            "statA": 20,
+            "statB": 65,
+            "statC": 60,
+            "description": "A snazzier version of the Carbon Roller. The Seeker sub weapon not only attacks the opponent but draws a path right to them. The special lets you send out a swarm of Seekers."
+        },
+        {
+            "name": "Zink Mini Splatling",
+            "level": 13,
+            "cost": 9400,
+            "sub": "Disruptor",
+            "special": "Bubbler",
+            "type": "Splatling",
+            "statA": 58,
+            "statB": 80,
+            "statC": 90,
+            "description": "A specially designed Mini Splatling brought to you by leading sports brand Zink. The sub and special weapons shore up your ability in a firefight."
+        },
+        {
+            "name": ".96 Gal Deco",
+            "level": 14,
+            "cost": 9700,
+            "sub": "Splash Wall",
+            "special": "Kraken",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 80,
+            "statC": 15,
+            "description": "A bedazzled .96 Gal shooter. Splat your opponents through the included Splash Wall, or engage them up close and personal with the Kraken. Versatility is the name of the game."
+        },
+        {
+            "name": "Rapid Blaster",
+            "level": 14,
+            "cost": 9600,
+            "sub": "Ink Mine",
+            "special": "Bubbler",
+            "type": "Blaster",
+            "statA": 45,
+            "statB": 35,
+            "statC": 40,
+            "description": "Mitigates the weaknesses of the regular Blaster by giving up a little shot power for a better rate of fire."
+        },
+        {
+            "name": "Range Blaster",
+            "level": 14,
+            "cost": 8000,
+            "sub": "Splash Wall",
+            "special": "Inkstrike",
+            "type": "Blaster",
+            "statA": 35,
+            "statB": 60,
+            "statC": 10,
+            "description": "A modified Blaster with a shot that travels farther before exploding. The ability to attack opponents who are farther away comes at the cost of short-range power."
+        },
+        {
+            "name": "H-3 Nozzlenose D",
+            "level": 14,
+            "cost": 8300,
+            "sub": "Point Sensor",
+            "special": "Inkzooka",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 60,
+            "statC": 30,
+            "description": "An H-3 Nozzlenose emblazoned with maker's logo. The Point Sensor and Inkzooka make for a completely different battling experience than that of the regular H-3."
+        },
+        {
+            "name": "Custom Jet Squelcher",
+            "level": 15,
+            "cost": 7900,
+            "sub": "Burst Bomb",
+            "special": "Kraken",
+            "type": "Shooter",
+            "statA": 80,
+            "statB": 32,
+            "statC": 40,
+            "description": "A custom Jet Squelcher. The sub weapon lets you corner your opponents, and the quirky special weapon makes for a tricky package."
+        },
+        {
+            "name": "Dynamo Roller",
+            "level": 15,
+            "cost": 10000,
+            "sub": "Sprinkler",
+            "special": "Echolocator",
+            "type": "Roller",
+            "statA": 72,
+            "statB": 30,
+            "statC": 20,
+            "description": "Using the blueprints as a starting point, Sheldon has rigged up a motor to the roller base. Cumbersome to use, but delivers a powerful burst of ink when swung."
+        },
+        {
+            "name": "Bamboozler 14 Mk I",
+            "level": 15,
+            "cost": 6200,
+            "sub": "Splash Wall",
+            "special": "Killer Wail",
+            "type": "Charger",
+            "statA": 72,
+            "statB": 90,
+            "statC": 80,
+            "description": "A reissue of a weapon used during the Great Turf War. It charges up extremely quickly and boasts great range even when not fully charged. Unfortunately, it is rather weak."
+        },
+        {
+            "name": "Luna Blaster Neo",
+            "level": 15,
+            "cost": 8700,
+            "sub": "Seeker",
+            "special": "Bomb Rush",
+            "type": "Blaster",
+            "statA": 10,
+            "statB": 80,
+            "statC": 30,
+            "description": "A remodeled Luna Blaster. Use the Splat Bombs to control the distance between you and the enemy, forcing them closer or driving them away."
+        },
+        {
+            "name": "Tri-Slosher Nouveau",
+            "level": 15,
+            "cost": 9900,
+            "sub": "Seeker",
+            "special": "Echolocator",
+            "type": "Slosher",
+            "statA": 33,
+            "statB": 80,
+            "statC": 70,
+            "description": "A Tri-Slosher with a rejigged Sub and Special setup. The Sub lets you get into optimum range and the Special allows you to track your opponents wherever they might be hiding."
+        },
+        {
+            "name": "Dual Squelcher",
+            "level": 16,
+            "cost": 9800,
+            "sub": "Splat Bomb",
+            "special": "Echolocator",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 27,
+            "statC": 55,
+            "description": "A double-barreled Jet Squelcher with a much higher rate of fire. The power of each shot is low, but the ample range and firing rate make up for it."
+        },
+        {
+            "name": "Rapid Blaster Pro",
+            "level": 16,
+            "cost": 11200,
+            "sub": "Seeker",
+            "special": "Inkzooka",
+            "type": "Blaster",
+            "statA": 65,
+            "statB": 35,
+            "statC": 30,
+            "description": "The Rapid Blaster Pro is based on the Rapid Blaster, but it's further specialized for increased range. Follow your Seekers to zip into an advantageous position and strike from your opponent's blind spot! The Inkzooka makes this a great set for frontline fighters who like to cause big problems for their foes!"
+        },
+        {
+            "name": "Custom Blaster",
+            "level": 17,
+            "cost": 10600,
+            "sub": "Point Sensor",
+            "special": "Bubbler",
+            "type": "Blaster",
+            "statA": 25,
+            "statB": 70,
+            "statC": 20,
+            "description": "This powerful weapon can splat opponents with one direct hit. The Bubbler special makes the weapon’s one-hit-kill capability even more dangerous for your opponents. Equip the Special Charge Up, Special Duration Up, and Special Saver abilities to utilize Bubbler with greater frequency and for longer durations."
+        },
+        {
+            "name": "Kelp Splatterscope",
+            "level": 17,
+            "cost": 7800,
+            "sub": "Sprinkler",
+            "special": "Killer Wail",
+            "type": "Charger",
+            "statA": 88,
+            "statB": 50,
+            "statC": 35,
+            "description": "A Splatterscope Sheldon modified in the same way as the Kelp Splat Charger—by sticking seaweed to it. Naturally, it also has a Sprinkler."
+        },
+        {
+            "name": "Custom Range Blaster",
+            "level": 17,
+            "cost": 10800,
+            "sub": "Splat Bomb",
+            "special": "Kraken",
+            "type": "Blaster",
+            "statA": 35,
+            "statB": 60,
+            "statC": 10,
+            "description": "A custom Range Blaster combined with a versatile sub weapon and a special weapon that excels in close-quarters combat."
+        },
+        {
+            "name": "Bamboozler 14 Mk II",
+            "level": 17,
+            "cost": 8300,
+            "sub": "Disruptor",
+            "special": "Echolocator",
+            "type": "Charger",
+            "statA": 72,
+            "statB": 90,
+            "statC": 80,
+            "description": "A variant of the Bamboozler 14 Mk I. The sub weapon hampers your opponent's movement, giving you plenty of time to bring them down with a barrage of shots."
+        },
+        {
+            "name": "E-liter 3K",
+            "level": 18,
+            "cost": 12500,
+            "sub": "Burst Bomb",
+            "special": "Echolocator",
+            "type": "Charger",
+            "statA": 97,
+            "statB": 20,
+            "statC": 15,
+            "description": "A charger with a high-capacity tank. By packing a lot of ink into each shot, it can strike from a great distance at the cost of long charge time and ferocious ink consumption."
+        },
+        {
+            "name": "Custom Dual Squelcher",
+            "level": 18,
+            "cost": 12800,
+            "sub": "Squid Beakon",
+            "special": "Killer Wail",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 27,
+            "statC": 55,
+            "description": "A very special Dual Squelcher. The teammate-deploying Squid Beakon and cover-penetrating Killer Wail ensure you'll be a contributing factor."
+        },
+        {
+            "name": "Neo Splash-o-matic",
+            "level": 18,
+            "cost": 10200,
+            "sub": "Point Sensor",
+            "special": "Kraken",
+            "type": "Shooter",
+            "statA": 15,
+            "statB": 55,
+            "statC": 75,
+            "description": "A Sploosh-o-matic with a modified setup. Use the Point Sensor to sneak up behind the opponent's position, and then unleash this weapon's close-quarters attack power."
+        },
+        {
+            "name": "Rapid Blaster Deco",
+            "level": 19,
+            "cost": 14800,
+            "sub": "Suction Bomb",
+            "special": "Bomb Rush",
+            "type": "Blaster",
+            "statA": 45,
+            "statB": 35,
+            "statC": 40,
+            "description": "A decorated version of the Rapid Blaster. Its sub weapon can scatter opponents, and its special lets you maximize that potential. A great set for staving off aggressive foes."
+        },
+        {
+            "name": "Custom E-liter 3K",
+            "level": 19,
+            "cost": 14200,
+            "sub": "Squid Beakon",
+            "special": "Kraken",
+            "type": "Charger",
+            "statA": 97,
+            "statB": 20,
+            "statC": 15,
+            "description": "A special version of the E-Liter 3K that enables new strategies using the Squid Beakon and the powerful Kraken."
+        },
+        {
+            "name": "E-liter 3K Scope",
+            "level": 19,
+            "cost": 13400,
+            "sub": "Burst Bomb",
+            "special": "Echolocator",
+            "type": "Charger",
+            "statA": 100,
+            "statB": 20,
+            "statC": 10,
+            "description": "An E-Liter 3K fitted with a scope. It isn't just easier to target opponents from a distance - the E-Liter 3K Scope boasts the greatest range of any weapon."
+        },
+        {
+            "name": "Forge Splattershot Pro",
+            "level": 20,
+            "cost": 19800,
+            "sub": "Point Sensor",
+            "special": "Inkzooka",
+            "type": "Shooter",
+            "statA": 68,
+            "statB": 55,
+            "statC": 40,
+            "description": "A Splattershot Pro created in partnership with Forge, the only name in high-quality sports gear. A tricky Point Sensor sub weapon supports the reliable main weapon."
+        },
+        {
+            "name": "Gold Dynamo Roller",
+            "level": 20,
+            "cost": 25000,
+            "sub": "Splat Bomb",
+            "special": "Inkstrike",
+            "type": "Roller",
+            "statA": 72,
+            "statB": 30,
+            "statC": 20,
+            "description": "A Dynamo Roller with rearranged sub and special weapons. Lure the enemy out of hiding with the sub weapon, and then unleash the full force of your powerful roller."
+        },
+        {
+            "name": "Custom E-liter 3K Scope",
+            "level": 20,
+            "cost": 22600,
+            "sub": "Squid Beakon",
+            "special": "Kraken",
+            "type": "Charger",
+            "statA": 100,
+            "statB": 20,
+            "statC": 10,
+            "description": "A Custom E-liter 3K with a scope. The range and zoom is impressive, but the viewfinder is so narrow that it's easy to leave yourself open to attack while aiming."
+        },
+        {
+            "name": "Rapid Blaster Pro Deco",
+            "level": 20,
+            "cost": 18200,
+            "sub": "Disruptor",
+            "special": "Killer Wail",
+            "type": "Blaster",
+            "statA": 65,
+            "statB": 35,
+            "statC": 30,
+            "description": "A decorated model of the Rapid Blaster Pro. Its effectiveness can be increased through clever use of the sub weapon to slow down your opponents enough to blast them."
+        },
+        {
+            "name": "Octoshot Replica",
+            "level": 40,
+            "cost": "Level 40",
+            "sub": "Suction Bomb",
+            "special": "Inkzooka",
+            "type": "Shooter",
+            "statA": 50,
+            "statB": 45,
+            "statC": 55,
+            "description": "A replica of the Octoling’s go-to weapon. Happens to function like a Tentatek."
+        }
+    ]
+}

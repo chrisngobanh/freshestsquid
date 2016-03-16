@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Damage Up",
+        "type": "Any",
+        "description": "Increases damage of your main, sub, and special weapons."
+    },
+    {
+        "name": "Defense Up",
+        "type": "Any",
+        "description": "Reduces damage taken from all attacks."
+    },
+    {
+        "name": "Ink Saver (Main)",
+        "type": "Any",
+        "description": "Decreases amount of ink consumed by your main weapon."
+    },
+    {
+        "name": "Ink Saver (Sub)",
+        "type": "Any",
+        "description": "Decreases amount of ink consumed by your sub weapon."
+    },
+    {
+        "name": "Ink Recovery Up",
+        "type": "Any",
+        "description": "Increases ink-tank refill rate while submerged in squid form."
+    },
+    {
+        "name": "Run Speed Up",
+        "type": "Any",
+        "description": "Increases movement speed in inkling form."
+    },
+    {
+        "name": "Swim Speed Up",
+        "type": "Any",
+        "description": "Increases movement speed while swimming in squid form."
+    },
+    {
+        "name": "Special Charge Up",
+        "type": "Any",
+        "description": "Increases special-guage fill rate."
+    },
+    {
+        "name": "Special Duration Up",
+        "type": "Any",
+        "description": "Increases usage time of special weapons."
+    },
+    {
+        "name": "Quick Respawn",
+        "type": "Any",
+        "description": "Decreases respawn time after getting splatted."
+    },
+    {
+        "name": "Special Saver",
+        "type": "Any",
+        "description": "Reduces special-guage decrease after getting splatted."
+    },
+    {
+        "name": "Quick Super Jump",
+        "type": "Any",
+        "description": "Increases Super Jump speed."
+    },
+    {
+        "name": "Bomb Range Up",
+        "type": "Any",
+        "description": "Makes bombs, Point Sensors, and Disruptors travel farther when thrown."
+    },
+    {
+        "name": "Opening Gambit",
+        "type": "Head",
+        "description": "Boosts your speed in both Inkling and squid form for the first 30 seconds of battle."
+    },
+    {
+        "name": "Last-Ditch Effort",
+        "type": "Head",
+        "description": "Boosts ink recovery rate and weapon ink efficiency for the last 30 seconds of battle."
+    },
+    {
+        "name": "Tenacity",
+        "type": "Head",
+        "description": "Fills special guage automatically if your team has fewer active members than the enemy."
+    },
+    {
+        "name": "Comeback",
+        "type": "Head",
+        "description": "Boosts some of your abilities for a short time after respawning."
+    },
+    {
+        "name": "Cold Blooded",
+        "type": "Clothes",
+        "description": "Shortens the effect of attacks that let enemies track your position, such as Point Sensors."
+    },
+    {
+        "name": "Ninja Squid",
+        "type": "Clothes",
+        "description": "Leaves no trace when swimming in inked ground, but reduces swim speed slightly."
+    },
+    {
+        "name": "Haunt",
+        "type": "Clothes",
+        "description": "Reveals the position of any player who splats you to your team for a short time."
+    },
+    {
+        "name": "Recon",
+        "type": "Clothes",
+        "description": "Allows you to see the opposing team on the map while standing on your spawn points."
+    },
+    {
+        "name": "Bomb Sniffer",
+        "type": "Shoes",
+        "description": "Reveals traps and hidden bombs placed by your opponents."
+    },
+    {
+        "name": "Ink Resistance Up",
+        "type": "Shoes",
+        "description": "Reduces damage and movement penalties incurred when moving through enemy ink."
+    },
+    {
+        "name": "Ninja Squid",
+        "type": "Shoes",
+        "description": "Hides your Super Jump landing points, but also makes your Super Jumps slightly slower."
+    }
+]
