@@ -78,6 +78,7 @@ class BrowseMenu extends BaseComponent {
 
     initializeStoreItemsList(props);
 
+    store.type = 'weapons';
     store.activeItem = store.itemsList.weapons[0];
 
     this.state = store;
