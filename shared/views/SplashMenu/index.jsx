@@ -9,72 +9,75 @@ import axios from '../../config/axios';
 import router from '../../router';
 import util from '../util';
 
-function resetRecaptcha() {
-  const $recaptcha = $('#recaptcha');
-  $recaptcha.empty();
-
-  grecaptcha.render('recaptcha', {
-    sitekey: '6LdLShQTAAAAABrmUEYlYqQAcgAA3BMeh_NERG2P',
-  });
-}
-
-function handleSignup(e) {
-  e.preventDefault();
-
-  const formData = util.convertQsToObject($('#signup-form').serialize());
-
-  axios.post('/user', formData)
-    .then(({ data }) => {
-      switch (data.code) {
-        case 200:
-          router.setRoute('/loadouts');
-          break;
-        case 400:
-          $('#username').select();
-          resetRecaptcha();
-          break;
-        case 500:
-          // TODO: Show an error message
-          break;
-        default:
-      }
-    })
-    .catch(() => {
-      // TODO: Show an error message
-    });
-}
-
-function handleLogin(e) {
-  e.preventDefault();
-
-  const formData = util.convertQsToObject($('#login-form').serialize());
-
-  axios.post('/user/login', formData)
-    .then(({ data }) => {
-      switch (data.code) {
-        case 200:
-          router.setRoute('/loadouts');
-          break;
-        case 400:
-          $('#usernameEmail').select();
-          break;
-        case 500:
-          // TODO: Show an error message
-          break;
-        default:
-      }
-    })
-    .catch(() => {
-      // TODO: Show an error message
-    });
-}
+const store = {};
 
 class SplashMenu extends BaseComponent {
 
+  constructor(props) {
+    super(props);
+    this.state = store;
+
+    this.bind('handleLogin', 'handleSignup');
+  }
+
   componentDidMount() {
-    $('#signup-form').submit(handleSignup);
-    $('#login-form').submit(handleLogin);
-    resetRecaptcha();
+    $('#signup-form').submit(this.handleSignup);
+    $('#login-form').submit(this.handleLogin);
+
+    grecaptcha.render('recaptcha', {
+      sitekey: '6LdLShQTAAAAABrmUEYlYqQAcgAA3BMeh_NERG2P',
+    });
+  }
+
+  handleLogin(e) {
+    e.preventDefault();
+
+    const formData = util.convertQsToObject($('#login-form').serialize());
+
+    axios.post('/user/login', formData)
+      .then(({ data }) => {
+        switch (data.code) {
+          case 200:
+            router.setRoute('/loadouts');
+            break;
+          case 400:
+            $('#usernameEmail').select();
+            break;
+          case 500:
+            // TODO: Show an error message
+            break;
+          default:
+        }
+      })
+      .catch(() => {
+        // TODO: Show an error message
+      });
+  }
+
+  handleSignup(e) {
+    e.preventDefault();
+
+    const formData = util.convertQsToObject($('#signup-form').serialize());
+
+    axios.post('/user', formData)
+      .then(({ data }) => {
+        switch (data.code) {
+          case 200:
+            router.setRoute('/loadouts');
+            break;
+          case 400:
+            $('#username').select();
+            grecaptcha.reset();
+            break;
+          case 500:
+            // TODO: Show an error message
+            break;
+          default:
+        }
+      })
+      .catch(() => {
+        // TODO: Show an error message
+      });
   }
 
   render() {
