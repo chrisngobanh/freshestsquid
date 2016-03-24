@@ -16,6 +16,9 @@ import sass from 'gulp-sass';
 import source from 'vinyl-source-stream';
 import uglify from 'gulp-uglify';
 
+// This is the list of vendors that we package separately
+const vendors = ['axios', 'director', 'jquery', 'lodash', 'react', 'react-helmet'];
+
 /**
  * The process that this task undergoes:
  * 1. Recursively finds all of the .js and .jsx files being included,
@@ -30,12 +33,42 @@ gulp.task('compile-js',
     entries: 'client/js/index.js',
     extensions: ['.jsx'],
   })
+    .external(vendors) // Do not package any vendors
     .transform(babelify)
     .bundle()
     .pipe(source('scripts.min.js'))
     .pipe(buffer())
     .pipe(gulpif(process.env.NODE_ENV === 'production', uglify()))
     .pipe(gulp.dest('public'))
+);
+
+/**
+ * The purpose of this task is to package big libraries, such as React, separately
+ * so that when we develop, we don't need to keep repacking it when it's not changing.
+ *
+ * When developing, this task should only be called when "gulp server" is initially ran.
+ * .js and .jsx file changes do not call this task.
+ *
+ * The process this task goes through is similar to compile-js, except it will find
+ * all of the packages specified in the "vendors" array and run the process on them
+ */
+gulp.task('compile-vendor',
+  () => {
+    const b = browserify();
+
+    // Loop through the vendors array and require each listed package
+    vendors.forEach(lib => {
+      b.require(lib);
+    });
+
+    return b
+    .transform(babelify)
+    .bundle()
+    .pipe(source('vendors.min.js'))
+    .pipe(buffer())
+    .pipe(gulpif(process.env.NODE_ENV === 'production', uglify()))
+    .pipe(gulp.dest('public'));
+  }
 );
 
 /**
@@ -67,7 +100,7 @@ gulp.task('compile-server',
 );
 
 // Runs the compile-js, compile-sass, and compile-server tasks
-gulp.task('compile', ['compile-sass', 'compile-js', 'compile-server']);
+gulp.task('compile', ['compile-sass', 'compile-js', 'compile-vendor', 'compile-server']);
 
 gulp.task('server', ['compile'], () => {
   browserSync.create().init({
