@@ -31,14 +31,14 @@ class Message extends BaseComponent {
   render() {
     return (
       <div>
-        <Motion style={{ x: spring(this.state.open ? -700 : 0) }}>
+        <Motion style={{ x: spring(this.state.open ? -28 : 0) }}>
           {({ x }) =>
             <div
               className="message"
               onClick={this.goBack}
               style={{
-                WebkitTransform: `translate3d(${x}px, 0, 0)`,
-                transform: `translate3d(${x}px, 0, 0)`,
+                WebkitTransform: `translate3d(${x}em, 0, 0)`,
+                transform: `translate3d(${x}em, 0, 0)`,
               }}
             >
               <span className="message-close">&times;</span>
