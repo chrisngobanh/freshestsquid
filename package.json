@@ -36,6 +36,7 @@
     "nunjucks": "^1.3.4",
     "react": "^0.13.3",
     "react-helmet": "^2.2.0",
+    "react-motion": "^0.4.2",
     "sequelize": "^3.14.2",
     "validator": "^4.1.0"
   },
