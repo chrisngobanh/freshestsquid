@@ -104,6 +104,40 @@ a:hover {
   color: #F7AE25;
 }
 
+.message {
+  position: absolute;
+  left: 100%;
+  width: 25em;
+  height: 5em;
+  border-radius: 4px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #F7AE25;
+  background-color: rgba(25, 25, 25, 0.5);
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(50, 50, 50, 0.5);
+  }
+
+  .message-close {
+    font-size: 24px;
+    text-shadow: none;
+    font-family: "Times New Roman";
+    font-weight: 100;
+    position: absolute;
+    right: 0.75em;
+    top: 0.35em;
+  }
+
+  .message-txt {
+    margin: 0 1.5em;
+    font-size: 18px;
+  }
+}
+
 // Wrap any element with a div with this classname to
 // ensure that it doesn't take up more space than it needs
 .container {
