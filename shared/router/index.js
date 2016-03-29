@@ -43,7 +43,7 @@ function handleClientRoute(routeHandler) {
         if (res.data.data) username = res.data.data.username;
 
         routeHandler({ username, params }, (url, reactComponent, props) => {
-          if (url) return window.location.replace(url);
+          if (url) return handleClientRoute(routes[url])(params);
           const $react = $('#react');
           React.render(React.createElement(reactComponent, props), $react.get(0));
         });
