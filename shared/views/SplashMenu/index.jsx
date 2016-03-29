@@ -4,12 +4,13 @@ import React from 'react';
 
 import BaseComponent from '../BaseComponent';
 import Helmet from '../Helmet';
+import Message from '../Message';
 
 import axios from '../../config/axios';
 import router from '../../router';
 import util from '../util';
 
-const store = {};
+const store = { error: '' };
 
 class SplashMenu extends BaseComponent {
 
@@ -29,6 +30,11 @@ class SplashMenu extends BaseComponent {
     });
   }
 
+  handleError(err) {
+    store.error = err;
+    this.setState(store);
+  }
+
   handleLogin(e) {
     e.preventDefault();
 
@@ -41,10 +47,9 @@ class SplashMenu extends BaseComponent {
             router.setRoute('/loadouts');
             break;
           case 400:
-            $('#usernameEmail').select();
-            break;
           case 500:
-            // TODO: Show an error message
+            $('#usernameEmail').select();
+            this.handleError(data.message);
             break;
           default:
         }
@@ -66,11 +71,10 @@ class SplashMenu extends BaseComponent {
             router.setRoute('/loadouts');
             break;
           case 400:
-            $('#username').select();
-            grecaptcha.reset();
-            break;
           case 500:
-            // TODO: Show an error message
+            $('#username').select();
+            this.handleError(data.message);
+            grecaptcha.reset();
             break;
           default:
         }
@@ -83,6 +87,7 @@ class SplashMenu extends BaseComponent {
   render() {
     return (
       <div>
+        <Message text={store.error} />
         <Helmet
           // Include Recaptcha library for signups
           script={[
