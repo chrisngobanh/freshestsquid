@@ -8,6 +8,7 @@ import router from '../../router';
 
 import BaseComponent from '../BaseComponent';
 import Helmet from '../Helmet';
+import Message from '../Message';
 
 import GearInfoPanel from './GearInfoPanel';
 import ItemPanel from './ItemPanel';
@@ -44,6 +45,7 @@ const store = {
     shoes: 1,
   },
   type: 'weapons',
+  message: '',
 };
 
 function initializeStoreItemsList(props) {
@@ -85,6 +87,14 @@ class BrowseMenu extends BaseComponent {
 
     this.bind('onCategoryBtnClick', 'equipItem', 'handleActiveItemChange',
               'handleItemEquip', 'onBackClick');
+  }
+
+  showMessage(msg) {
+    store.message = msg;
+    this.setState(store);
+
+    store.message = '';
+    this.setState(store);
   }
 
   onCategoryBtnClick(event) {
@@ -129,17 +139,16 @@ class BrowseMenu extends BaseComponent {
         switch (data.code) {
           case 200:
             this.equipItem(page, item, type);
+            this.showMessage(`You have equipped ${item.name}!`);
             break;
           case 400:
-            // TODO: Handle Error
-            break;
           case 500:
           default:
-            // TODO: Handle Error
+            this.showMessage(data.message);
         }
       })
       .catch(() => {
-        // TODO: Handle Error
+        this.showMessage('Something went wrong. Please try again!');
       });
   }
 
@@ -155,6 +164,9 @@ class BrowseMenu extends BaseComponent {
     return (
       <div className={`browse-menu ${this.state.type}`}>
         <Helmet title={ title } />
+
+        <Message text={this.state.message} />
+
         <ItemPanel
           changeActiveItem={ this.handleActiveItemChange }
           equipItem={ this.handleItemEquip }

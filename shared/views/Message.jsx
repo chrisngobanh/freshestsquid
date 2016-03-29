@@ -23,10 +23,10 @@ class Message extends BaseComponent {
   }
 
   componentWillReceiveProps({ text }) {
-    store.arr[this.state.num - 1] = emptyObj;
-    clearTimeout(backTimer);
-
     if (text) {
+      store.arr[this.state.num - 1] = emptyObj;
+      clearTimeout(backTimer);
+
       store.arr.push({ key: this.state.num.toString(), style: { x: spring(-28) }, data: { text } });
       store.num++;
       this.setState(store);
