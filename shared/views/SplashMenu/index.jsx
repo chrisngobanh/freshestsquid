@@ -87,7 +87,7 @@ class SplashMenu extends BaseComponent {
   render() {
     return (
       <div>
-        <Message text={store.error} />
+        <Message text={this.state.error} />
         <Helmet
           // Include Recaptcha library for signups
           script={[

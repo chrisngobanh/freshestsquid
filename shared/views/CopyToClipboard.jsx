@@ -1,18 +1,24 @@
 import React, { PropTypes } from 'react';
 
 import BaseComponent from './BaseComponent';
+import Message from './Message';
 
 const propTypes = {
   url: PropTypes.string.isRequired,
 };
 
-const store = {};
+const store = { message: '' };
 
 class CopyToClipboard extends BaseComponent {
 
   constructor(props) {
     super(props);
     this.state = store;
+  }
+
+  showMessage(msg) {
+    store.message = msg;
+    this.setState(store);
   }
 
   componentDidMount() {
@@ -22,29 +28,28 @@ class CopyToClipboard extends BaseComponent {
     const clipboard = new Clipboard('.clipboard-btn');
 
     clipboard.on('success', (e) => {
-      // TODO: Show this in a message
-      // console.log('Copied text to clipboard!');
+      this.showMessage('Copied Text to Clipboard!');
       e.clearSelection();
     });
 
     clipboard.on('error', () => {
-      // TODO: Show this in a message
       let actionMsg = '';
       if (/iPhone|iPad/i.test(navigator.userAgent)) {
         actionMsg = 'No support :(';
       } else if (/Mac/i.test(navigator.userAgent)) {
-        actionMsg = 'Press ⌘-C to Copy';
+        actionMsg = 'Press ⌘-C to Copy Text to Clipboard';
       } else {
-        actionMsg = 'Press Ctrl-C to Copy';
+        actionMsg = 'Press Ctrl-C to Copy Text to Clipboard';
       }
 
-      console.log(actionMsg);
+      this.showMessage(actionMsg);
     });
   }
 
   render() {
     return (
       <div>
+        <Message text={this.state.message} />
         <input id="clipboard-text" value={ this.props.url } readOnly />
 
         <button className="clipboard-btn" data-clipboard-target="#clipboard-text">Hello</button>
