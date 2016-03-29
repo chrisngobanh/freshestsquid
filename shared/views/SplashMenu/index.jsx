@@ -10,7 +10,7 @@ import axios from '../../config/axios';
 import router from '../../router';
 import util from '../util';
 
-const store = { error: '' };
+const store = { message: '' };
 
 class SplashMenu extends BaseComponent {
 
@@ -30,8 +30,8 @@ class SplashMenu extends BaseComponent {
     });
   }
 
-  handleError(err) {
-    store.error = err;
+  showMessage(msg) {
+    store.message = msg;
     this.setState(store);
   }
 
@@ -48,14 +48,13 @@ class SplashMenu extends BaseComponent {
             break;
           case 400:
           case 500:
-            $('#usernameEmail').select();
-            this.handleError(data.message);
-            break;
           default:
+            $('#usernameEmail').select();
+            this.showMessage(data.message);
         }
       })
       .catch(() => {
-        // TODO: Show an error message
+        this.showMessage('Something went wrong with your login. Please try again!');
       });
   }
 
@@ -72,22 +71,21 @@ class SplashMenu extends BaseComponent {
             break;
           case 400:
           case 500:
-            $('#username').select();
-            this.handleError(data.message);
-            grecaptcha.reset();
-            break;
           default:
+            $('#username').select();
+            this.showMessage(data.message);
+            grecaptcha.reset();
         }
       })
       .catch(() => {
-        // TODO: Show an error message
+        this.showMessage('Something went wrong with your signup. Please try again!');
       });
   }
 
   render() {
     return (
       <div>
-        <Message text={this.state.error} />
+        <Message text={this.state.message} />
         <Helmet
           // Include Recaptcha library for signups
           script={[
