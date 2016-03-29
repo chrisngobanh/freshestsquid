@@ -1,13 +1,17 @@
 import React, { PropTypes } from 'react';
 
 import BaseComponent from './BaseComponent';
-import { Motion, spring } from 'react-motion';
+import { TransitionMotion, spring } from 'react-motion';
+
+const emptyObj = { key: '', style: { x: 0 }, data: { text: '' } };
+
+let backTimer;
 
 const propTypes = {
   text: PropTypes.string.isRequired,
 };
 
-const store = { open: true };
+const store = { num: 0, arr: [] };
 
 class Message extends BaseComponent {
 
@@ -18,35 +22,58 @@ class Message extends BaseComponent {
     this.bind('goBack');
   }
 
-  componentDidMount() {
-    // When the message is shown, give it 10 seconds before hiding it
-    setTimeout(() => this.goBack(), 10000);
+  componentWillReceiveProps({ text }) {
+    store.arr[this.state.num - 1] = emptyObj;
+    store.arr.push({ key: this.state.num.toString(), style: { x: spring(-28) }, data: { text } });
+    store.num++;
+    this.setState(store);
+
+    clearTimeout(backTimer);
+    backTimer = setTimeout(() => this.goBack(), 10000);
   }
 
   goBack() {
-    store.open = false;
+    store.arr[this.state.num - 1] = emptyObj;
     this.setState(store);
+  }
+
+  willEnter() {
+    return { x: 0 };
+  }
+
+  willLeave() {
+    return { x: spring(0) };
   }
 
   render() {
     return (
-      <div>
-        <Motion style={{ x: spring(this.state.open ? -28 : 0) }}>
-          {({ x }) =>
-            <div
-              className="message"
-              onClick={this.goBack}
-              style={{
-                WebkitTransform: `translate3d(${x}em, 0, 0)`,
-                transform: `translate3d(${x}em, 0, 0)`,
-              }}
-            >
-              <span className="message-close">&times;</span>
-              <span className="message-txt">{ this.props.text }</span>
-            </div>
-          }
-        </Motion>
-      </div>
+      <TransitionMotion
+        willEnter={this.willEnter}
+        willLeave={this.willLeave}
+        styles={this.state.arr}
+      >
+        {styles =>
+          <div>
+            {styles.map(config => {
+              if (!config.key) return null;
+              return (
+                <div
+                  key={config.key}
+                  className="message"
+                  onClick={this.goBack}
+                  style={{
+                    WebkitTransform: `translate3d(${config.style.x}em, 0, 0)`,
+                    transform: `translate3d(${config.style.x}em, 0, 0)`,
+                  }}
+                >
+                  <span className="message-close">&times;</span>
+                  <span className="message-txt">{ config.data.text }</span>
+                </div>
+              );
+            })}
+          </div>
+        }
+      </TransitionMotion>
     );
   }
 }
