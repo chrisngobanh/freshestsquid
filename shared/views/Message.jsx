@@ -24,12 +24,14 @@ class Message extends BaseComponent {
 
   componentWillReceiveProps({ text }) {
     store.arr[this.state.num - 1] = emptyObj;
-    store.arr.push({ key: this.state.num.toString(), style: { x: spring(-28) }, data: { text } });
-    store.num++;
-    this.setState(store);
-
     clearTimeout(backTimer);
-    backTimer = setTimeout(() => this.goBack(), 10000);
+
+    if (text) {
+      store.arr.push({ key: this.state.num.toString(), style: { x: spring(-28) }, data: { text } });
+      store.num++;
+      this.setState(store);
+      backTimer = setTimeout(() => this.goBack(), 10000);
+    }
   }
 
   goBack() {

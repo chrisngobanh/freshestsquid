@@ -114,13 +114,13 @@ a:hover {
   border-width: 5px;
   border-style: solid;
   border-color: #F7AE25;
-  background-color: #1A1A1A;
+  background-color: #333333;
   display: flex;
   align-items: center;
 
   &:hover {
     cursor: pointer;
-    background-color: #333333;
+    background-color: #4A4A4A;
   }
 
   .message-close {
