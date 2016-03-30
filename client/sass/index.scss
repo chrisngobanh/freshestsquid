@@ -389,7 +389,7 @@ a:hover {
 
   //min-width: 50%;
   //margin-left: 2.5%;
-  margin-top: 2.5%;
+  margin-top: 4.5vh;
 
   z-index: 4;
 
@@ -533,37 +533,49 @@ a:hover {
     }
   }
 
-  .page-circles {
+  .circle-wrapper {
     position: absolute;
     display: inline-block;
     width: 100%;
-    bottom: 4%;
-    margin: 0 auto;
+    height: 3.5%;
+    bottom: 3.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-circles {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 100%;
     text-align: center;
 
     .circle {
+      position: relative;
       display: inline-block;
-      width: 1.25vh;
-      height: 1.25vh;
-      margin-right: 1.5%;
-      border-radius: 100%;
-      background-color: black;
+      float: left;
+      height: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url(img/circle.png);
 
       &.active {
         &.weapons {
-          background-color: #9fb71b;
+          background-image: url(img/circle-weapons.png);
         }
 
         &.head {
-          background-color: #d2817e;
+          background-image: url(img/circle-head.png);
         }
 
         &.clothes {
-          background-color: #0cb7d1;
+          background-image: url(img/circle-clothes.png);
         }
 
         &.shoes {
-          background-color: #d8960c;
+          background-image: url(img/circle-shoes.png);
         }
       }
     }

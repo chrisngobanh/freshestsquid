@@ -134,9 +134,14 @@ class ItemPanel extends BaseComponent {
       if (i === this.state.page) className += ' active';
       circles.push(
         <div
-          className={ className }
+          className={className}
           key={`circle-${i}`}
-        />
+        >
+          <Image
+            className="hidden-img"
+            src="img/circle.png"
+          />
+        </div>
       );
     }
 
@@ -164,8 +169,10 @@ class ItemPanel extends BaseComponent {
           onClick={ this.onRightButtonPress }
           src="img/rb.png"
         />
-        <div className="page-circles">
-          { circles }
+        <div className="circle-wrapper">
+          <div className="page-circles">
+            { circles }
+          </div>
         </div>
         {/*
         <Image
