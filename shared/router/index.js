@@ -72,17 +72,15 @@ function initializeRouter() {
 
     router.configure({ html5history: true });
 
-    $document.click((e) => {
-      const element = e.target;
-      // If the clicked element is an <a> tag
-      if (element && element.nodeName === 'A') {
-        // Change the url that's in the user's browser
-        router.setRoute(element.attributes.href.value);
+    // Source: http://stackoverflow.com/a/36295638/4509670
+    $document.on('click', 'a', function handleRoutingOnAnchorClick(e) {
+      // Clientside redirect
+      router.setRoute(this.attributes.href.value);
 
-        // Prevent the <a> tag from redirecting
-        e.preventDefault();
-      }
+      // Prevent the <a> tag from redirecting
+      e.preventDefault();
     });
+
     router.init();
   } else {
     // Router will not use route recursion (only calls one route handler)
