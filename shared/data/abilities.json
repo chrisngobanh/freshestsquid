@@ -115,7 +115,7 @@
         "description": "Reduces damage and movement penalties incurred when moving through enemy ink."
     },
     {
-        "name": "Ninja Squid",
+        "name": "Stealth Jump",
         "type": "Shoes",
         "description": "Hides your Super Jump landing points, but also makes your Super Jumps slightly slower."
     }
