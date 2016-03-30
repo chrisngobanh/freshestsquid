@@ -74,7 +74,10 @@ class Loadout extends BaseComponent {
     return (
       <div>
         <h1>{this.props.loadout.name}</h1>
-        <CopyToClipboard url={`https://freshestsquid.com/loadouts/${this.props.loadout.id}`} />
+        <CopyToClipboard
+          url={`https://freshestsquid.com/loadouts/${this.props.loadout.id}`}
+          showMessage={this.props.showMessage}
+        />
         <br />
         <br />
         <h2>Weapon: {weapon.name}</h2>

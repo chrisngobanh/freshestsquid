@@ -1,9 +1,10 @@
 import React, { PropTypes } from 'react';
 
-import AbilitiesMenu from './AbilitiesMenu';
 import BaseComponent from '../BaseComponent';
 import Helmet from '../Helmet';
+import Message from '../Message';
 
+import AbilitiesMenu from './AbilitiesMenu';
 import Loadout from './Loadout';
 
 const propTypes = {
@@ -11,6 +12,7 @@ const propTypes = {
 };
 
 const store = {
+  message: '',
   mode: 'loadout',
   loadout: {},
   abilitiesMenuData: {
@@ -27,18 +29,25 @@ class LoadoutPage extends BaseComponent {
     store.loadout = this.props.loadout;
     this.state = store;
 
-    this.bind('renderAbilitiesMenu', 'renderLoadout');
+    this.bind('showMessage', 'renderAbilitiesMenu', 'renderLoadout');
   }
 
   renderAbilitiesMenu(slot, type, prevAbility) {
+    store.message = '';
     store.mode = 'abilities';
     store.abilitiesMenuData = { slot, type, prevAbility };
     this.setState(store);
   }
 
-  renderLoadout(slot, type, ability) {
+  renderLoadout(message, slot, type, ability) {
+    store.message = message;
     store.mode = 'loadout';
     store.loadout[type][`ability${slot}`] = ability;
+    this.setState(store);
+  }
+
+  showMessage(message) {
+    store.message = message;
     this.setState(store);
   }
 
@@ -51,6 +60,7 @@ class LoadoutPage extends BaseComponent {
             loadout={this.state.loadout}
             data={this.state.abilitiesMenuData}
             renderLoadout={this.renderLoadout}
+            showMessage={this.showMessage}
           />
         );
         break;
@@ -61,6 +71,7 @@ class LoadoutPage extends BaseComponent {
             loadout={this.state.loadout}
             username={this.props.username}
             renderAbilitiesMenu={this.renderAbilitiesMenu}
+            showMessage={this.showMessage}
           />
         );
     }
@@ -74,6 +85,7 @@ class LoadoutPage extends BaseComponent {
           title={this.state.loadout.name}
           description={description}
         />
+          <Message text={this.state.message} />
 
         { center }
 

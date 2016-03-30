@@ -32,18 +32,16 @@ class AbilitiesMenu extends BaseComponent {
         .then(({ data }) => {
           switch (data.code) {
             case 200:
-              this.props.renderLoadout(slot, type, name);
+              this.props.renderLoadout(data.message, slot, type, name);
               break;
             case 400:
-              // TODO: Handle Error
-              break;
             case 500:
             default:
-              // TODO: Handle Error
+              this.props.showMessage(data.message);
           }
         })
         .catch(() => {
-          // TODO: Handle Error
+          this.props.showMessage('Something went wrong. Please try again!');
         });
     };
   }
@@ -54,6 +52,7 @@ class AbilitiesMenu extends BaseComponent {
     abilitiesList.forEach((ability) => {
       abilities.push(
         <Ability
+          className="ability-menu"
           key={ability.name}
           abilityName={ability.name}
           onClick={this.onAbilityClick(ability)}
