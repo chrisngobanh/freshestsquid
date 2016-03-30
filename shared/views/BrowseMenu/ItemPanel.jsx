@@ -25,7 +25,7 @@ class ItemPanel extends BaseComponent {
     store.lastPage = Math.ceil(itemsData[props.type].length / ITEMS_PER_PAGE);
     store.type = props.type;
     this.state = store;
-    this.bind('handleEquipItem', 'onLeftButtonPress', 'onRightButtonPress');
+    this.bind('handleEquipItem', 'onLeftButtonPress', 'onRightButtonPress', 'onPageButtonPress');
   }
 
   componentDidMount() {
@@ -93,6 +93,16 @@ class ItemPanel extends BaseComponent {
     this.handleActiveItemChange(store.page);
   }
 
+  onPageButtonPress(i) {
+    return () => {
+      if (store.page !== i) {
+        store.page = i;
+        this.setState(store);
+        this.handleActiveItemChange(store.page);
+      }
+    };
+  }
+
   // TODO: Change name
   handleActiveItemChange(page) {
     const lower = (page - 1) * ITEMS_PER_PAGE;
@@ -135,6 +145,7 @@ class ItemPanel extends BaseComponent {
       circles.push(
         <div
           className={className}
+          onClick={this.onPageButtonPress(i)}
           key={`circle-${i}`}
         >
           <Image
