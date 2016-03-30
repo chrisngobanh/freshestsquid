@@ -17,6 +17,10 @@ class Message extends BaseComponent {
 
   constructor(props) {
     super(props);
+
+    store.num = 0;
+    store.arr = [];
+
     this.state = store;
 
     this.bind('goBack');
