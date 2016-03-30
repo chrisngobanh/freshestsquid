@@ -215,7 +215,7 @@ function addAbility(req, res) {
   if (!validator.isIn(type, itemTypes)) return res.sendClientError('Invalid item type.');
 
   // Check if the slot is an int and is 1-3
-  if (!validator.isInt(slot, { min: 1, max: 3 })) {
+  if (!validator.isInt(slot.toString(), { min: 1, max: 3 })) {
     return res.sendClientError('Invalid slot number.');
   }
 
