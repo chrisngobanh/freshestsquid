@@ -19,7 +19,7 @@ class AbilitiesMenu extends BaseComponent {
     super(props);
     this.state = store;
 
-    this.bind('onAbilityClick');
+    this.bind('onAbilityClick', 'onBack');
   }
 
   onAbilityClick(ability) {
@@ -46,6 +46,10 @@ class AbilitiesMenu extends BaseComponent {
     };
   }
 
+  onBack() {
+    this.props.renderLoadout();
+  }
+
   render() {
     const abilities = [];
 
@@ -62,6 +66,11 @@ class AbilitiesMenu extends BaseComponent {
     return (
       <div>
         {abilities}
+        <input
+          onClick={this.onBack}
+          type="button"
+          value="Go Back"
+        />
       </div>
     );
   }

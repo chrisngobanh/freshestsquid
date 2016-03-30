@@ -40,9 +40,12 @@ class LoadoutPage extends BaseComponent {
   }
 
   renderLoadout(message, slot, type, ability) {
-    store.message = message;
+    if (message) {
+      store.message = message;
+      store.loadout[type][`ability${slot}`] = ability;
+    }
+
     store.mode = 'loadout';
-    store.loadout[type][`ability${slot}`] = ability;
     this.setState(store);
   }
 
