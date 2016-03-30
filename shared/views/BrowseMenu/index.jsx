@@ -119,7 +119,11 @@ class BrowseMenu extends BaseComponent {
   }
 
   onBackClick() {
-    router.setRoute('/');
+    if (this.props.loadout.id) {
+      router.setRoute(`/loadouts/${this.props.loadout.id}`);
+    } else {
+      router.setRoute('/');
+    }
   }
 
   equipItem(page, item, type) {
