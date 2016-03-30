@@ -252,7 +252,7 @@ function addAbility(req, res) {
           return Loadout
                   .update(updateObj, { where: { id } })
                   .then(() => {
-                    res.sendOk(`${name} has been added to slot ${slot}.`, { name, slot });
+                    res.sendOk(`${name} has been added to ${loadoutItem.name}.`, { name, slot });
                   });
         }
 
