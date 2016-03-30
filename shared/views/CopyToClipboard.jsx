@@ -17,8 +17,12 @@ class CopyToClipboard extends BaseComponent {
   }
 
   showMessage(msg) {
-    store.message = msg;
-    this.setState(store);
+    if (this.props.showMessage) {
+      this.props.showMessage(msg);
+    } else {
+      store.message = msg;
+      this.setState(store);
+    }
   }
 
   componentDidMount() {
@@ -49,7 +53,10 @@ class CopyToClipboard extends BaseComponent {
   render() {
     return (
       <div>
-        <Message text={this.state.message} />
+        {!this.props.showMessage ?
+          <Message text={this.state.message} />
+        : null
+        }
         <input id="clipboard-text" value={ this.props.url } readOnly />
 
         <button className="clipboard-btn" data-clipboard-target="#clipboard-text">Hello</button>
