@@ -121,7 +121,6 @@ Here are the ground rules:
   * In addition to this, feel free to `+1` any good ideas that you come across.
   * Please check the [Trello board](https://trello.com/b/IGvXO35z/freshest-squid) or [past/existing issues](https://github.com/chrisngobanh/freshestsquid/issues?utf8=%E2%9C%93&q=is%3Aissue) to see if your idea has already been suggested.
 * If you're submitting a design, your best bet would be to [open an issue](https://github.com/chrisngobanh/freshestsquid/issues?utf8=%E2%9C%93&q=is%3Aissue) and present your designs there. You could also code in the designs yourself and [submit a pull request](https://github.com/chrisngobanh/freshestsquid/compare) if you would like.
-* I'm pretty stubborn about comments. If you contribute code, please thoroughly document your work.
 
 **[⬆ back to top](#table-of-contents)**
 
