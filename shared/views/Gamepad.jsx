@@ -18,7 +18,9 @@ class Gamepad extends BaseComponent {
   render() {
     return (
       <div className="gamepad">
-        { this.props.children}
+        <div className="gamepad-screen">
+          { this.props.children}
+        </div>
       </div>
     );
   }

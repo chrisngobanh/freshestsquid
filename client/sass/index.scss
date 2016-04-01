@@ -602,4 +602,12 @@ input:focus {
   background-size: auto 125%;
   background-repeat: no-repeat;
   background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .gamepad-screen {
+    height: 72vh;
+    width: 127vh;
+  }
 }
