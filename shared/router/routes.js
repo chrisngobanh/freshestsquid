@@ -4,6 +4,7 @@ import LoadoutPage from '../views/LoadoutPage';
 import LoadoutsMenu from '../views/LoadoutsMenu';
 import PrivacyPolicyMenu from '../views/PrivacyPolicyMenu';
 import SplashMenu from '../views/SplashMenu';
+import Gamepad from '../views/Gamepad';
 
 import axios from '../config/axios';
 
@@ -115,6 +116,10 @@ function fetchPrivacy({}, callback) {
   callback(null, PrivacyPolicyMenu, {});
 }
 
+function gamepadTest({}, callback) {
+  callback(null, Gamepad, {});
+}
+
 const routes = {
   '/': fetchIndex,
   '/browse': fetchBrowse,
@@ -123,6 +128,7 @@ const routes = {
   '/loadouts/:id/equip': fetchEquipPage,
   '/about': fetchAbout,
   '/privacypolicy': fetchPrivacy,
+  '/gamepad': gamepadTest,
 };
 
 export default routes;

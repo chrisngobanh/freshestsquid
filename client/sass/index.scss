@@ -595,3 +595,11 @@ input:focus {
 .g-recaptcha {
   display: inline;
 }
+
+.gamepad {
+  height: 100%;
+  background-image: url(img/gamepad.png);
+  background-size: auto 125%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

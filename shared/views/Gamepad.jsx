@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-import BaseComponent from '../BaseComponent';
+import BaseComponent from './BaseComponent';
 
 const propTypes = {
   children: PropTypes.element.isRequired,
@@ -17,7 +17,7 @@ class Gamepad extends BaseComponent {
 
   render() {
     return (
-      <div>
+      <div className="gamepad">
         { this.props.children}
       </div>
     );
