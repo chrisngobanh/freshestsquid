@@ -8,6 +8,7 @@ import router from '../../router';
 
 import BaseComponent from '../BaseComponent';
 import Helmet from '../Helmet';
+import Image from '../Image';
 import Message from '../Message';
 
 import GearInfoPanel from './GearInfoPanel';
@@ -231,9 +232,12 @@ class BrowseMenu extends BaseComponent {
           <p>| Shoes: {this.state.equippedItems.shoes.name}</p>
         </div>
 
-        <button onClick={this.onBackClick}>Go Back</button>
-
         <div className="wave" />
+        <Image
+          className="purple-back-btn"
+          onClick={this.onBackClick}
+          src="img/backbutton.png"
+        />
       </div>
     );
   }

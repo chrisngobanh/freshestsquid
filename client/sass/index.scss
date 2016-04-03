@@ -81,6 +81,13 @@ html {
   &.shoes {
     background-image: url(img/background-shoes.png);
   }
+
+  .purple-back-btn {
+    position: absolute;
+    height: 22vh;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 // TEMP
