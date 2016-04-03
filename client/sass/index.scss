@@ -616,5 +616,9 @@ input:focus {
   .gamepad-screen {
     height: 72vh;
     width: 127vh;
+    background-image: url(img/gamepad-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
